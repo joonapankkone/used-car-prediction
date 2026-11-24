@@ -1,0 +1,3399 @@
+column,value,count
+body_type,SUV / Crossover,1343327
+body_type,Sedan,705835
+body_type,Pickup Truck,458651
+body_type,Hatchback,84127
+body_type,Minivan,77341
+body_type,Coupe,70648
+body_type,Van,44578
+body_type,Wagon,39370
+body_type,Convertible,25937
+body_type,MISSING,12419
+engine_type,I4,1333386
+engine_type,V6,716802
+engine_type,V8,272646
+engine_type,MISSING,93079
+engine_type,V8 Flex Fuel Vehicle,76745
+engine_type,I4 Hybrid,69480
+engine_type,V6 Flex Fuel Vehicle,65773
+engine_type,H4,61073
+engine_type,I3,50489
+engine_type,I6,28199
+engine_type,I6 Diesel,22717
+engine_type,V8 Biodiesel,21558
+engine_type,I4 Flex Fuel Vehicle,9185
+engine_type,I4 Diesel,7188
+engine_type,V6 Diesel,6417
+engine_type,V8 Diesel,6266
+engine_type,I5,5300
+engine_type,H6,4686
+engine_type,V6 Biodiesel,3550
+engine_type,V6 Hybrid,3001
+engine_type,V12,1316
+engine_type,V10,1290
+engine_type,I2,897
+engine_type,W12,484
+engine_type,V8 Hybrid,127
+engine_type,W12 Flex Fuel Vehicle,97
+engine_type,I5 Biodiesel,96
+engine_type,H4 Hybrid,94
+engine_type,V8 Compressed Natural Gas,93
+engine_type,R2,65
+engine_type,I5 Diesel,49
+engine_type,I4 Compressed Natural Gas,48
+engine_type,I6 Hybrid,16
+engine_type,V8 Propane,6
+engine_type,W8,3
+engine_type,V6 Compressed Natural Gas,3
+engine_type,I3 Hybrid,3
+engine_type,V12 Hybrid,2
+engine_type,W16,2
+engine_type,V10 Diesel,2
+fuel_type,Gasoline,2477150
+fuel_type,Flex Fuel Vehicle,151800
+fuel_type,MISSING,76293
+fuel_type,Hybrid,72723
+fuel_type,Diesel,43408
+fuel_type,Biodiesel,25204
+fuel_type,Electric,15505
+fuel_type,Compressed Natural Gas,144
+fuel_type,Propane,6
+make_name,Ford,462815
+make_name,Chevrolet,353596
+make_name,Toyota,229903
+make_name,Nissan,203252
+make_name,Honda,196241
+make_name,Jeep,159612
+make_name,Hyundai,131828
+make_name,Kia,104480
+make_name,RAM,98966
+make_name,GMC,96592
+make_name,Dodge,86640
+make_name,Volkswagen,72814
+make_name,Mercedes-Benz,66161
+make_name,Subaru,64183
+make_name,Buick,61930
+make_name,BMW,61588
+make_name,Mazda,51025
+make_name,Cadillac,46210
+make_name,Lexus,39903
+make_name,Chrysler,35604
+make_name,Audi,35561
+make_name,Lincoln,32072
+make_name,Acura,28470
+make_name,INFINITI,27251
+make_name,Volvo,21127
+make_name,Mitsubishi,18235
+make_name,Land Rover,14903
+make_name,Porsche,12905
+make_name,MINI,8896
+make_name,Jaguar,8502
+make_name,Alfa Romeo,3907
+make_name,Genesis,3656
+make_name,Maserati,3244
+make_name,FIAT,2867
+make_name,Pontiac,2774
+make_name,Scion,2273
+make_name,Tesla,2070
+make_name,Mercury,1580
+make_name,Saturn,1404
+make_name,Ferrari,1057
+make_name,Bentley,982
+make_name,Hummer,866
+make_name,Aston Martin,601
+make_name,smart,537
+make_name,Suzuki,514
+make_name,Rolls-Royce,444
+make_name,Saab,347
+make_name,Lamborghini,342
+make_name,McLaren,334
+make_name,Oldsmobile,325
+make_name,Plymouth,185
+make_name,Lotus,119
+make_name,Isuzu,97
+make_name,Freightliner,86
+make_name,MG,49
+make_name,Karma,33
+make_name,Triumph,30
+make_name,Fisker,26
+make_name,Shelby,25
+make_name,Datsun,24
+make_name,AM General,21
+make_name,AMC,17
+make_name,Willys,16
+make_name,SRT,15
+make_name,Studebaker,10
+make_name,Sunbeam,10
+make_name,Maybach,9
+make_name,Geo,7
+make_name,Austin-Healey,6
+make_name,Packard,6
+make_name,International Harvester,5
+make_name,DeTomaso,4
+make_name,Kaiser,3
+make_name,Hudson,3
+make_name,Daewoo,3
+make_name,Nash,3
+make_name,VPG,3
+make_name,Eagle,2
+make_name,Morris,2
+make_name,Bugatti,2
+make_name,Pininfarina,2
+make_name,Opel,2
+make_name,DeLorean,2
+make_name,Spyker,1
+make_name,Pagani,1
+make_name,Clenet,1
+make_name,Mobility Ventures,1
+make_name,Franklin,1
+make_name,Jensen,1
+make_name,Saleen,1
+make_name,Koenigsegg,1
+make_name,Rover,1
+make_name,Edsel,1
+make_name,Hillman,1
+make_name,Austin,1
+make_name,Humber,1
+make_name,Ariel,1
+make_name,DeSoto,1
+make_name,Allard,1
+make_name,Bricklin,1
+model_name,F-150,124857
+model_name,Silverado 1500,69307
+model_name,1500,66874
+model_name,Equinox,58409
+model_name,Escape,55419
+model_name,Explorer,48090
+model_name,Rogue,43817
+model_name,Grand Cherokee,43600
+model_name,Camry,41470
+model_name,Fusion,39422
+model_name,CR-V,38772
+model_name,Altima,35650
+model_name,Accord,35093
+model_name,Corolla,33729
+model_name,Civic,33344
+model_name,Trax,32357
+model_name,Cherokee,29949
+model_name,RAV4,29803
+model_name,Edge,28915
+model_name,Tucson,28435
+model_name,Malibu,27442
+model_name,Sentra,26402
+model_name,Wrangler Unlimited,26110
+model_name,Highlander,25971
+model_name,Sierra 1500,25433
+model_name,Elantra,25380
+model_name,Traverse,25342
+model_name,CX-5,24630
+model_name,Sonata,22909
+model_name,Terrain,22712
+model_name,Pilot,21676
+model_name,Compass,21373
+model_name,Expedition,21348
+model_name,Jetta,21015
+model_name,Grand Caravan,20686
+model_name,Acadia,20067
+model_name,Tahoe,19283
+model_name,Odyssey,18923
+model_name,Outback,18848
+model_name,Soul,18174
+model_name,Mustang,17516
+model_name,F-250 Super Duty,16811
+model_name,2500,16501
+model_name,Sportage,16172
+model_name,Journey,16121
+model_name,Tacoma,16098
+model_name,Charger,15898
+model_name,Renegade,15749
+model_name,Murano,15716
+model_name,Encore,15674
+model_name,Sorento,15461
+model_name,EcoSport,14971
+model_name,Cruze,14692
+model_name,Ranger,14521
+model_name,Pacifica,14064
+model_name,Enclave,13847
+model_name,Tiguan,13773
+model_name,Forester,13669
+model_name,Encore GX,13498
+model_name,Santa Fe,13368
+model_name,Forte,13281
+model_name,Kona,13120
+model_name,3 Series,13013
+model_name,Versa,12511
+model_name,Durango,12350
+model_name,Colorado,12233
+model_name,Pathfinder,12217
+model_name,Challenger,12102
+model_name,Optima,11953
+model_name,Passat,11715
+model_name,HR-V,11551
+model_name,C-Class,11338
+model_name,Envision,11246
+model_name,Gladiator,11106
+model_name,MDX,10853
+model_name,Focus,10842
+model_name,XT5,10735
+model_name,Silverado 2500HD,10692
+model_name,Impala,10350
+model_name,Suburban,10129
+model_name,4Runner,10079
+model_name,Fusion Hybrid,10004
+model_name,Sienna,9868
+model_name,Blazer,9828
+model_name,Camaro,9789
+model_name,Prius,9649
+model_name,Rogue Sport,9597
+model_name,E-Class,9321
+model_name,MAZDA3,9077
+model_name,Tundra,9030
+model_name,X3,8898
+model_name,Transit Connect,8893
+model_name,Atlas,8865
+model_name,300,8805
+model_name,X5,8769
+model_name,F-350 Super Duty,8709
+model_name,Kicks,8610
+model_name,QX60,8554
+model_name,Fit,8345
+model_name,Crosstrek,8324
+model_name,Impreza,8282
+model_name,Yukon,8180
+model_name,5 Series,7994
+model_name,RDX,7825
+model_name,Frontier,7806
+model_name,Maxima,6855
+model_name,GLC-Class,6681
+model_name,Camry Hybrid,6514
+model_name,Q5,6506
+model_name,Titan,6463
+model_name,Transit Cargo,6393
+model_name,Highlander Hybrid,6284
+model_name,3500,6213
+model_name,Yukon XL,6121
+model_name,RX 350,6120
+model_name,MKZ,6091
+model_name,XC90,6015
+model_name,Legacy,5904
+model_name,XC60,5734
+model_name,Spark,5575
+model_name,K5,5388
+model_name,Q50,5296
+model_name,Armada,5221
+model_name,Atlas Cross Sport,5129
+model_name,Bolt EV,5126
+model_name,Outlander,5124
+model_name,XT6,5097
+model_name,Escalade,5095
+model_name,GLE-Class,5087
+model_name,Sierra 2500HD,5065
+model_name,Outlander Sport,4987
+model_name,RX,4964
+model_name,Wrangler,4957
+model_name,A4,4956
+model_name,Santa Fe Sport,4940
+model_name,GLA-Class,4927
+model_name,Fiesta,4859
+model_name,Town & Country,4834
+model_name,XT4,4787
+model_name,Accent,4734
+model_name,MAZDA6,4728
+model_name,Sedona,4705
+model_name,Rio,4664
+model_name,CX-9,4621
+model_name,S-Class,4616
+model_name,Cooper,4613
+model_name,TLX,4450
+model_name,Passport,4354
+model_name,Patriot,4277
+model_name,ES 350,4266
+model_name,Taurus,4245
+model_name,Corsair,4217
+model_name,RAV4 Hybrid,4109
+model_name,Nautilus,4094
+model_name,Ascent,4057
+model_name,Corvette,3988
+model_name,Flex,3910
+model_name,Palisade,3897
+model_name,C-HR,3851
+model_name,Canyon,3816
+model_name,Seltos,3809
+model_name,Trailblazer,3774
+model_name,Transit Passenger,3751
+model_name,200,3665
+model_name,Ridgeline,3662
+model_name,X1,3648
+model_name,Express,3620
+model_name,Accord Hybrid,3614
+model_name,Q7,3593
+model_name,Sprinter,3592
+model_name,Avalon,3570
+model_name,Sonic,3567
+model_name,Corolla Hybrid,3497
+model_name,Cayenne,3481
+model_name,S60,3459
+model_name,Civic Hatchback,3430
+model_name,ProMaster,3380
+model_name,Discovery Sport,3374
+model_name,Navigator,3360
+model_name,QX50,3318
+model_name,LEAF,3307
+model_name,Macan,3286
+model_name,Insight,3282
+model_name,Express Cargo,3262
+model_name,CT5,3182
+model_name,CX-30,3165
+model_name,QX80,3143
+model_name,Niro,3137
+model_name,MKX,3106
+model_name,CR-V Hybrid,3083
+model_name,MKC,3043
+model_name,Civic Coupe,3038
+model_name,A6,3038
+model_name,F-PACE,3004
+model_name,Escalade ESV,2944
+model_name,Range Rover Sport,2892
+model_name,A3,2878
+model_name,Countryman,2873
+model_name,LaCrosse,2855
+model_name,GLS-Class,2800
+model_name,Silverado 3500HD,2782
+model_name,CTS,2774
+model_name,4 Series,2770
+model_name,Escape Hybrid,2763
+model_name,Q3,2741
+model_name,GTI,2686
+model_name,CLA-Class,2646
+model_name,911,2618
+model_name,Eclipse Cross,2589
+model_name,Venue,2563
+model_name,SRX,2559
+model_name,7 Series,2500
+model_name,ILX,2471
+model_name,Aviator,2468
+model_name,Elantra GT,2423
+model_name,ProMaster City,2420
+model_name,Continental,2405
+model_name,IS,2373
+model_name,GX,2335
+model_name,Range Rover Evoque,2320
+model_name,F-350 Super Duty Chassis,2318
+model_name,Sequoia,2228
+model_name,GLB-Class,2226
+model_name,ATS,2208
+model_name,RAM 1500,2179
+model_name,Ioniq Hybrid,2170
+model_name,ES,2149
+model_name,Range Rover,2126
+model_name,XC40,2081
+model_name,Volt,2054
+model_name,XTS,2017
+model_name,Liberty,2011
+model_name,NX 200t,2000
+model_name,G70,1994
+model_name,E-Series,1991
+model_name,Prius Prime,1972
+model_name,Giulia,1972
+model_name,Dart,1955
+model_name,Fusion Energi,1931
+model_name,CX-3,1930
+model_name,3500 Chassis,1928
+model_name,2 Series,1923
+model_name,Telluride,1923
+model_name,Mirage,1911
+model_name,Sierra 3500HD,1897
+model_name,Stelvio,1865
+model_name,SL-Class,1847
+model_name,NX,1829
+model_name,WRX,1828
+model_name,Veloster,1812
+model_name,Beetle,1808
+model_name,Mirage G4,1802
+model_name,Yaris,1785
+model_name,X2,1742
+model_name,Corolla Hatchback,1731
+model_name,F-550 Super Duty Chassis,1674
+model_name,Golf,1562
+model_name,CT4,1551
+model_name,Avalon Hybrid,1533
+model_name,GS 350,1526
+model_name,Accord Coupe,1504
+model_name,Ghibli,1504
+model_name,Pacifica Hybrid,1489
+model_name,M-Class,1479
+model_name,A-Class,1473
+model_name,X7,1435
+model_name,Panamera,1427
+model_name,Range Rover Velar,1417
+model_name,Sonata Hybrid,1372
+model_name,Regal,1369
+model_name,Juke,1361
+model_name,XE,1342
+model_name,5500 Chassis,1332
+model_name,QX30,1330
+model_name,Versa Note,1328
+model_name,MX-5 Miata,1322
+model_name,i3,1318
+model_name,Venza,1311
+model_name,RAM 2500,1286
+model_name,RX Hybrid,1270
+model_name,ES Hybrid,1247
+model_name,V60,1236
+model_name,Savana Cargo,1230
+model_name,IS 250,1213
+model_name,Cooper Clubman,1211
+model_name,G80,1209
+model_name,MKZ Hybrid,1208
+model_name,F-450 Super Duty,1203
+model_name,Discovery,1201
+model_name,Verano,1190
+model_name,Voyager,1180
+model_name,NV200,1174
+model_name,TL,1160
+model_name,GL-Class,1154
+model_name,Q60,1145
+model_name,Model S,1095
+model_name,Arteon,1083
+model_name,Avenger,1077
+model_name,Avalanche,1072
+model_name,A5 Sportback,1018
+model_name,A5,1011
+model_name,S90,1007
+model_name,CT6,1006
+model_name,Silverado 3500HD Chassis,997
+model_name,NV Cargo,996
+model_name,CLS-Class,995
+model_name,XV Crosstrek,985
+model_name,G37,979
+model_name,Clarity Hybrid Plug-In,957
+model_name,A8,941
+model_name,Cruze Limited,933
+model_name,C-Max Hybrid,931
+model_name,500,912
+model_name,Stinger,910
+model_name,Levante,900
+model_name,E-PACE,891
+model_name,CT Hybrid,870
+model_name,XF,867
+model_name,Genesis,860
+model_name,Q8,855
+model_name,X6,845
+model_name,Cadenza,842
+model_name,Prius v,836
+model_name,SQ5,828
+model_name,Xterra,827
+model_name,Niro Hybrid Plug-In,826
+model_name,Dakota,825
+model_name,F-TYPE,825
+model_name,Metris Cargo,817
+model_name,MKT,809
+model_name,Jetta GLI,809
+model_name,e-tron,801
+model_name,500X,789
+model_name,SLC-Class,784
+model_name,GLK-Class,773
+model_name,Cobalt,773
+model_name,Prius c,760
+model_name,tC,760
+model_name,TSX,741
+model_name,C-Max Energi,739
+model_name,G6,732
+model_name,WRX STI,728
+model_name,X4,728
+model_name,LS 460,724
+model_name,CC,718
+model_name,Impala Limited,691
+model_name,Quest,688
+model_name,Golf Alltrack,687
+model_name,Lucerne,682
+model_name,Rio5,679
+model_name,6 Series,678
+model_name,PT Cruiser,677
+model_name,A7,675
+model_name,AMG GT,674
+model_name,HHR,665
+model_name,FJ Cruiser,660
+model_name,S4,655
+model_name,370Z,651
+model_name,XJ-Series,649
+model_name,Sprinter Cargo,649
+model_name,G-Class,641
+model_name,Model 3,640
+model_name,Range Rover Hybrid,633
+model_name,8 Series,632
+model_name,UX Hybrid,629
+model_name,Veloster Turbo,627
+model_name,Q5 Hybrid Plug-in,627
+model_name,Yaris iA,615
+model_name,xB,611
+model_name,Captiva Sport,609
+model_name,Jetta SportWagen,606
+model_name,QX56,602
+model_name,Supra,577
+model_name,Kona Electric,576
+model_name,Taycan,574
+model_name,NX Hybrid,565
+model_name,I-PACE,564
+model_name,MKS,560
+model_name,Lancer,560
+model_name,M8,543
+model_name,Mustang Shelby GT350,541
+model_name,Golf SportWagen,539
+model_name,Forte5,532
+model_name,M4,531
+model_name,M3,526
+model_name,Town Car,524
+model_name,Caliber,517
+model_name,Savana,516
+model_name,Sebring,513
+model_name,Touareg,505
+model_name,LS,503
+model_name,Rogue Select,500
+model_name,RAM 3500,500
+model_name,RX 330,491
+model_name,S5,486
+model_name,fortwo,483
+model_name,Optima Hybrid,479
+model_name,Nitro,478
+model_name,Explorer Sport Trac,476
+model_name,ES 300h,475
+model_name,Envoy,474
+model_name,Thunderbird,472
+model_name,Z4,460
+model_name,MAZDA5,459
+model_name,Niro EV,456
+model_name,G90,453
+model_name,Matrix,452
+model_name,VUE,452
+model_name,R8,448
+model_name,500e,441
+model_name,DTS,439
+model_name,Element,436
+model_name,Quattroporte,435
+model_name,Impreza WRX,435
+model_name,S3,429
+model_name,Outlander Hybrid Plug-in,428
+model_name,G35,425
+model_name,Ioniq Hybrid Plug-In,419
+model_name,Corolla iM,419
+model_name,M5,407
+model_name,Ioniq Electric,407
+model_name,Grand Marquis,406
+model_name,Mustang Shelby GT500,404
+model_name,Commander,396
+model_name,A4 Allroad,395
+model_name,H3,392
+model_name,QX70,391
+model_name,Grand Prix,388
+model_name,500L,384
+model_name,NV Passenger,379
+model_name,CX-7,375
+model_name,S6,373
+model_name,GranTurismo,372
+model_name,Camry Solara,372
+model_name,Vibe,369
+model_name,BRZ,368
+model_name,XC70,367
+model_name,LeSabre,362
+model_name,Boxster,354
+model_name,Altima Coupe,354
+model_name,e-Golf,353
+model_name,V90,350
+model_name,S-Class Coupe,349
+model_name,Defender,347
+model_name,Azera,346
+model_name,IS 350,341
+model_name,124 Spider,340
+model_name,Transit Chassis,337
+model_name,Land Cruiser,334
+model_name,H2,333
+model_name,FX35,332
+model_name,Model X,329
+model_name,DeVille,327
+model_name,X3 M,325
+model_name,UX,321
+model_name,Aveo,317
+model_name,RC,312
+model_name,Genesis Coupe,305
+model_name,JX35,301
+model_name,CLK-Class,296
+model_name,Transit Crew,293
+model_name,ATS Coupe,293
+model_name,Crosstour,286
+model_name,Civic Hybrid,286
+model_name,Mariner,285
+model_name,RLX,285
+model_name,LX 570,283
+model_name,GX 470,275
+model_name,Express Chassis,274
+model_name,X5 M,273
+model_name,TT,273
+model_name,Explorer Hybrid,272
+model_name,SQ7,272
+model_name,Routan,269
+model_name,1 Series,269
+model_name,E-Series Chassis,268
+model_name,Sierra 3500HD Chassis,268
+model_name,Metris,267
+model_name,FR-S,266
+model_name,Forte Koup,265
+model_name,LR4,263
+model_name,SLK-Class,262
+model_name,718 Cayman,260
+model_name,Milan,259
+model_name,ES 330,259
+model_name,RC 350,256
+model_name,S80,255
+model_name,ION,253
+model_name,S5 Sportback,253
+model_name,Excursion,252
+model_name,Continental GT,250
+model_name,3 Series Gran Turismo,246
+model_name,Monte Carlo,245
+model_name,Firebird,245
+model_name,350Z,243
+model_name,F-550 Super Duty,240
+model_name,A3 Sportback,235
+model_name,86,232
+model_name,LS 430,232
+model_name,Continental GTC,228
+model_name,xD,228
+model_name,Mountaineer,228
+model_name,S40,219
+model_name,Q70,218
+model_name,Regal Sportback,218
+model_name,Cayenne E-Hybrid,217
+model_name,Veracruz,217
+model_name,S-10,217
+model_name,Crown Victoria,217
+model_name,MDX Hybrid Sport,214
+model_name,Cayman,214
+model_name,Q70L,213
+model_name,Aura,210
+model_name,S8,210
+model_name,M6,206
+model_name,XK-Series,206
+model_name,X6 M,205
+model_name,Spectra,204
+model_name,Tribute,204
+model_name,9-3,201
+model_name,C/K 1500,199
+model_name,ES 300,197
+model_name,RX 300,197
+model_name,Cascada,196
+model_name,LX,196
+model_name,718 Boxster,195
+model_name,Trailblazer EXT,195
+model_name,Veloster N,191
+model_name,Cube,190
+model_name,Silverado Classic 1500,189
+model_name,Prius Plug-In,188
+model_name,RX 400h,184
+model_name,488,183
+model_name,Malibu Hybrid,182
+model_name,M2,181
+model_name,Impreza WRX STI,181
+model_name,Soul EV,179
+model_name,STS,178
+model_name,SX4,177
+model_name,M37,177
+model_name,Eos,176
+model_name,CTS Coupe,175
+model_name,DB11,175
+model_name,Century,174
+model_name,Envoy XL,173
+model_name,Rendezvous,173
+model_name,Torrent,173
+model_name,Eclipse,172
+model_name,EX35,171
+model_name,Outlook,170
+model_name,CR-Z,169
+model_name,Crosstrek Hybrid,169
+model_name,Golf R,168
+model_name,Galant,168
+model_name,Accord Crosstour,167
+model_name,Civic Type R,167
+model_name,LR2,166
+model_name,Silverado 3500,164
+model_name,LS 500,164
+model_name,Grand Am,164
+model_name,Elantra Touring,160
+model_name,SC 430,158
+model_name,MAZDA2,157
+model_name,Mirai,157
+model_name,Uplander,155
+model_name,Vantage,153
+model_name,Cavalier,153
+model_name,City Express,152
+model_name,Tribeca,151
+model_name,GT-R,151
+model_name,S7,148
+model_name,Five Hundred,148
+model_name,Rabbit,148
+model_name,A6 Allroad,148
+model_name,F-450 Super Duty Chassis,147
+model_name,Panamera E-Hybrid,146
+model_name,SSR,146
+model_name,Regal TourX,146
+model_name,Bentayga,144
+model_name,Sable,144
+model_name,LC,143
+model_name,iA,143
+model_name,Chevelle,143
+model_name,Freestyle,143
+model_name,RL,140
+model_name,GS 300,140
+model_name,K900,139
+model_name,Optima Hybrid Plug-In,137
+model_name,M35,135
+model_name,Flying Spur,133
+model_name,C/V,132
+model_name,CL-Class,132
+model_name,iM,132
+model_name,458 Italia,130
+model_name,Endeavor,130
+model_name,Sonata Hybrid Plug-In,128
+model_name,RLX Hybrid Sport,128
+model_name,F-250,128
+model_name,Crossfire,126
+model_name,Lancer Evolution,125
+model_name,RC 200t,125
+model_name,Escalade EXT,124
+model_name,Ghost,123
+model_name,GTO,123
+model_name,Viper,123
+model_name,RS 3,122
+model_name,5 Series Gran Turismo,120
+model_name,C/K 10,119
+model_name,C70,117
+model_name,Huracan,117
+model_name,Eldorado,112
+model_name,Caravan,112
+model_name,A4 Avant,111
+model_name,Bel Air,111
+model_name,RC F,111
+model_name,Equus,110
+model_name,Solstice,109
+model_name,Silverado Classic 2500HD,107
+model_name,Aspen,105
+model_name,G8,103
+model_name,i8,102
+model_name,Freestar,102
+model_name,Focus RS,100
+model_name,Elantra Coupe,99
+model_name,Grand Vitara,99
+model_name,S-Series,99
+model_name,RS 5,99
+model_name,Gallardo,99
+model_name,TTS,98
+model_name,X4 M,98
+model_name,LX 470,98
+model_name,Malibu Maxx,97
+model_name,B-Class,96
+model_name,XL-7,95
+model_name,720S,95
+model_name,Santa Fe XL,94
+model_name,Bronco,94
+model_name,R-Class,93
+model_name,Rogue Hybrid,93
+model_name,H2 SUT,92
+model_name,Stratus,91
+model_name,CTS-V,90
+model_name,B9 Tribeca,89
+model_name,V70,89
+model_name,Sierra 1500 Limited,89
+model_name,G5,89
+model_name,MAZDASPEED3,88
+model_name,Wraith,86
+model_name,Windstar,85
+model_name,L-Series,84
+model_name,Magnum,83
+model_name,Dawn,83
+model_name,XV Crosstrek Hybrid,83
+model_name,G25,83
+model_name,Q50 Hybrid,82
+model_name,California,82
+model_name,HS 250h,81
+model_name,Neon,81
+model_name,Mustang SVT Cobra,80
+model_name,Z3,80
+model_name,Baja,78
+model_name,Model A,77
+model_name,Evora,77
+model_name,Rondo,76
+model_name,El Camino,74
+model_name,RC 300,74
+model_name,RS 7,73
+model_name,Continental Flying Spur,73
+model_name,Montego,73
+model_name,xA,72
+model_name,Focus Electric,72
+model_name,Eclipse Spyder,72
+model_name,GT,72
+model_name,S-TYPE,71
+model_name,C30,71
+model_name,Bonneville,71
+model_name,LR3,69
+model_name,Celica,69
+model_name,Range Rover Hybrid Plug-in,69
+model_name,Venture,68
+model_name,Spark EV,68
+model_name,Park Avenue,67
+model_name,Prowler,67
+model_name,300-Class,66
+model_name,F-350,66
+model_name,Sonoma,65
+model_name,Aventador,65
+model_name,Entourage,65
+model_name,Taurus X,65
+model_name,B-Series,65
+model_name,Alero,64
+model_name,Rainier,64
+model_name,F-100,64
+model_name,9-5,63
+model_name,RX-8,63
+model_name,California T,63
+model_name,570S,63
+model_name,4500 Chassis,63
+model_name,Silverado 1500HD,63
+model_name,RSX,62
+model_name,Nova,62
+model_name,iQ,61
+model_name,XLR,61
+model_name,Sky,60
+model_name,A8 Hybrid Plug-In,60
+model_name,V8 Vantage,60
+model_name,380-Class,60
+model_name,Cooper Coupe,60
+model_name,Seville,60
+model_name,Mulsanne,59
+model_name,Tracker,59
+model_name,S2000,58
+model_name,Cooper Paceman,58
+model_name,Sierra 3500,58
+model_name,GS,57
+model_name,SQ8,57
+model_name,C/K 3500,57
+model_name,Coupe,57
+model_name,NSX,57
+model_name,Caprice,56
+model_name,DBS,56
+model_name,Classic,55
+model_name,Jetta Hybrid,54
+model_name,Tiburon,54
+model_name,Sierra Classic 1500,54
+model_name,fortwo electric drive,54
+model_name,X-TYPE,52
+model_name,F12 Berlinetta,52
+model_name,812 Superfast,52
+model_name,CTS-V Coupe,52
+model_name,Q40,51
+model_name,SS,51
+model_name,Sierra 2500HD Classic,50
+model_name,Mark LT,49
+model_name,GS F,49
+model_name,Vanquish,49
+model_name,Econoline Wagon,49
+model_name,MPV,49
+model_name,V50,48
+model_name,599 GTB Fiorano,46
+model_name,C/K 2500,46
+model_name,F430 Spider,46
+model_name,RS 5 Sportback,45
+model_name,FX37,44
+model_name,DB9,44
+model_name,300ZX,44
+model_name,Jimmy,44
+model_name,Cougar,44
+model_name,Amanti,42
+model_name,Sunfire,42
+model_name,Monterey,42
+model_name,MR2 Spyder,42
+model_name,Phantom,41
+model_name,Roadster,41
+model_name,Borrego,41
+model_name,Countryman Hybrid Plug-in,41
+model_name,CT6-V,41
+model_name,6 Series Gran Turismo,40
+model_name,Astro,40
+model_name,Riviera,40
+model_name,Allante,40
+model_name,Urus,39
+model_name,Astra,39
+model_name,QX4,39
+model_name,SLS-Class,39
+model_name,600LT,39
+model_name,Deluxe,39
+model_name,Altima Hybrid,38
+model_name,Portofino,38
+model_name,Touareg 2,38
+model_name,Fleetwood,38
+model_name,Montero Sport,38
+model_name,ProMaster Chassis,38
+model_name,Montana SV6,38
+model_name,Cutlass,38
+model_name,Protege,37
+model_name,GTC4Lusso T,37
+model_name,Yukon Hybrid,37
+model_name,Forenza,37
+model_name,Kizashi,37
+model_name,Zephyr,36
+model_name,Silverado Classic 3500,36
+model_name,Cullinan,36
+model_name,Escort,36
+model_name,360 Spider,36
+model_name,Pickup,36
+model_name,ATS-V,35
+model_name,RAM Van,35
+model_name,Model T,35
+model_name,Spider,35
+model_name,Ranger Chassis,35
+model_name,Tahoe Hybrid,34
+model_name,I35,34
+model_name,CTS Sport Wagon,34
+model_name,Terraza,34
+model_name,Aurora,34
+model_name,450-Class,34
+model_name,Montana,34
+model_name,Escalade Hybrid,33
+model_name,9-7X,33
+model_name,Sierra 2500,33
+model_name,F430,32
+model_name,F-150 Heritage,32
+model_name,Rodeo,32
+model_name,GS 200t,32
+model_name,Safari,31
+model_name,R32,31
+model_name,Roadmaster,30
+model_name,GTC4Lusso,30
+model_name,Continental Supersports,30
+model_name,3100,30
+model_name,CL,30
+model_name,300M,30
+model_name,Silverado 2500,30
+model_name,F-150 SVT Lightning,30
+model_name,Raider,30
+model_name,ECHO,29
+model_name,Fairlane,29
+model_name,Bravada,29
+model_name,Silverado Hybrid,29
+model_name,MGB,29
+model_name,Arnage,29
+model_name,Envoy XUV,29
+model_name,CJ-7,29
+model_name,Barracuda,28
+model_name,Z3 M,28
+model_name,ELR,27
+model_name,TT RS,27
+model_name,XG350,27
+model_name,EuroVan,27
+model_name,3000GT,27
+model_name,Intrepid,27
+model_name,210,27
+model_name,Karma,26
+model_name,QX60 Hybrid,26
+model_name,H3T,26
+model_name,ATS-V Coupe,26
+model_name,Cayenne Hybrid,26
+model_name,I30,26
+model_name,Explorer Sport,26
+model_name,4C,25
+model_name,Rapide,25
+model_name,CJ-5,25
+model_name,Lancer Sportback,25
+model_name,Astro Cargo,24
+model_name,MP4-12C,24
+model_name,Mariner Hybrid,24
+model_name,RAM 3500 Chassis,24
+model_name,Concorde,24
+model_name,Lumina,24
+model_name,GS Hybrid,24
+model_name,LS 400,24
+model_name,9-3 SportCombi,23
+model_name,Equator,23
+model_name,Silver Spur,23
+model_name,570GT,23
+model_name,Cobra,23
+model_name,240,23
+model_name,360,23
+model_name,Silhouette,23
+model_name,Ranchero,23
+model_name,Falcon,23
+model_name,Elise,22
+model_name,430 Scuderia,22
+model_name,650S,22
+model_name,Prizm,22
+model_name,Q45,22
+model_name,Intrigue,22
+model_name,944,21
+model_name,Murano CrossCabriolet,21
+model_name,RAV4 Prime,21
+model_name,XF Sportbrake,21
+model_name,442,21
+model_name,ZDX,21
+model_name,Coronet,21
+model_name,ILX Hybrid,20
+model_name,FF,20
+model_name,Fiero,20
+model_name,575M,20
+model_name,Allroad,20
+model_name,Prelude,20
+model_name,M56,20
+model_name,F355,20
+model_name,Montero,20
+model_name,Phantom Drophead Coupe,19
+model_name,Revero GT,19
+model_name,Aztek,19
+model_name,Testarossa,19
+model_name,Stealth,19
+model_name,Galaxie 500,19
+model_name,Cutlass Supreme,19
+model_name,Hummer,19
+model_name,Ascender,19
+model_name,GS 430,19
+model_name,Biscayne,19
+model_name,Nexo,19
+model_name,H1,18
+model_name,S70,18
+model_name,Torino,18
+model_name,Escape Hybrid Plug-in,18
+model_name,IPL G,18
+model_name,Silverado SS,18
+model_name,SLR McLaren,17
+model_name,Mustang Mach-E,17
+model_name,328,17
+model_name,TR6,17
+model_name,C/K 1500 Series,17
+model_name,Skylark,17
+model_name,M45,17
+model_name,i-MiEV,17
+model_name,Pathfinder Hybrid,16
+model_name,Trooper,16
+model_name,928,16
+model_name,Super Deluxe,16
+model_name,Bronco Sport,16
+model_name,Custom,16
+model_name,Sierra 1500HD,16
+model_name,Crossfire SRT-6,16
+model_name,626,16
+model_name,RAM Wagon,16
+model_name,CT6 Hybrid Plug-In,16
+model_name,DB7,15
+model_name,RX-7,15
+model_name,356,15
+model_name,LS 500h,15
+model_name,C/K 20,15
+model_name,612 Scaglietti,15
+model_name,Grand Wagoneer,15
+model_name,Le Baron,15
+model_name,Series 62,15
+model_name,Fury,15
+model_name,TC,15
+model_name,Villager,15
+model_name,FX45,15
+model_name,Sierra Classic 3500,15
+model_name,Special,14
+model_name,Z4 M,14
+model_name,Murcielago,14
+model_name,Revero,14
+model_name,280ZX,14
+model_name,F-1,14
+model_name,Aerio,13
+model_name,Corvair,13
+model_name,675LT,13
+model_name,420-Class,13
+model_name,Mark VIII,12
+model_name,XC,12
+model_name,Toronado,12
+model_name,Brougham,12
+model_name,550,12
+model_name,308,12
+model_name,500-Class,12
+model_name,VUE Hybrid,12
+model_name,914,12
+model_name,Relay,12
+model_name,Marauder,12
+model_name,Catalina,12
+model_name,New Yorker,11
+model_name,912,11
+model_name,RS 6,11
+model_name,G20,11
+model_name,Reatta,11
+model_name,C/K 2500 Series,11
+model_name,L300,11
+model_name,Superamerica,11
+model_name,S4 Avant,11
+model_name,560-Class,11
+model_name,Esprit,11
+model_name,Discovery Series II,11
+model_name,Q5 Hybrid,11
+model_name,V40,11
+model_name,Road Runner,11
+model_name,Corniche,11
+model_name,Truck,11
+model_name,EX37,11
+model_name,968,11
+model_name,Econoline Cargo,10
+model_name,RS Q8,10
+model_name,Super Beetle,10
+model_name,Capri,10
+model_name,900,10
+model_name,Ramcharger,10
+model_name,CTS-V Wagon,10
+model_name,280,10
+model_name,V12 Vantage,10
+model_name,Reno,10
+model_name,i-Series,10
+model_name,Sprinter Passenger,10
+model_name,Z8,10
+model_name,G3,10
+model_name,Marquis,10
+model_name,LHS,10
+model_name,Azure,10
+model_name,T100,10
+model_name,Clarity Fuel Cell,10
+model_name,Contour,10
+model_name,Cabrio,9
+model_name,190-Class,9
+model_name,RAM 150,9
+model_name,Delta 88,9
+model_name,GranSport,9
+model_name,57,9
+model_name,LC Hybrid,9
+model_name,RAM 4500 Chassis,9
+model_name,Vitara,9
+model_name,Blackwood,9
+model_name,GTX,9
+model_name,MAZDASPEED6,9
+model_name,Milan Hybrid,9
+model_name,Chevy Van,9
+model_name,Apache,9
+model_name,Belvedere,9
+model_name,Safari Cargo,8
+model_name,V12 Vanquish,8
+model_name,RS 4,8
+model_name,Electra,8
+model_name,SC 400,8
+model_name,Galaxie,8
+model_name,Nomad,8
+model_name,Super,8
+model_name,FX50,8
+model_name,Eighty-Eight,8
+model_name,Tiger,8
+model_name,F-600 Super Duty,8
+model_name,Silverado Classic 1500HD,8
+model_name,CJ-8,8
+model_name,Diamante,8
+model_name,Sierra,8
+model_name,ActiveHybrid 3,8
+model_name,Integra,8
+model_name,Protege5,8
+model_name,Verona,8
+model_name,Series III,7
+model_name,LX 450,7
+model_name,GS 460,7
+model_name,ActiveHybrid 7,7
+model_name,9-2X,7
+model_name,Customline,7
+model_name,Ninety-Eight,7
+model_name,Rambler American,7
+model_name,RAM 250,7
+model_name,Grand Voyager,7
+model_name,Eighty-Eight Royale,7
+model_name,Polara,7
+model_name,Cirrus,7
+model_name,Civic del Sol,7
+model_name,Master Deluxe,7
+model_name,Cabriolet,7
+model_name,S60 R,7
+model_name,Sephia,6
+model_name,Freelander,6
+model_name,924,6
+model_name,Phaeton,6
+model_name,Sierra 1500 Hybrid,6
+model_name,C/K 3500 Series,6
+model_name,Bentayga Hybrid,6
+model_name,LFA,6
+model_name,GLI,6
+model_name,348,6
+model_name,MR2,6
+model_name,Imperial,6
+model_name,Eight,6
+model_name,MGB Roadster,6
+model_name,LTD,6
+model_name,Comet,6
+model_name,456M,6
+model_name,Rodeo Sport,6
+model_name,Continental R,6
+model_name,Duster,6
+model_name,Tracer,6
+model_name,XLR-V,6
+model_name,Panamera Hybrid,5
+model_name,Mark VII,5
+model_name,LS 600h L,5
+model_name,Turbo R,5
+model_name,Touareg Hybrid,5
+model_name,9-4X,5
+model_name,Satellite,5
+model_name,Spitfire,5
+model_name,Gran Sport,5
+model_name,Chieftain,5
+model_name,Super Bee,5
+model_name,M35h,5
+model_name,Sportvan,5
+model_name,ActiveHybrid 5,5
+model_name,H1 Alpha,5
+model_name,R/V 10,5
+model_name,3600,5
+model_name,2002,5
+model_name,GS 400,5
+model_name,Focus SVT,5
+model_name,280Z,5
+model_name,Phantom Coupe,5
+model_name,150,5
+model_name,Model Y,5
+model_name,Tempest,5
+model_name,Legend,4
+model_name,LTD Crown Victoria,4
+model_name,Carrera GT,4
+model_name,Custom Cruiser,4
+model_name,Grand Ville,4
+model_name,960,4
+model_name,Mark VI,4
+model_name,Exige,4
+model_name,512TR,4
+model_name,MGA,4
+model_name,9-5 SportCombi,4
+model_name,SVX,4
+model_name,Can Am,4
+model_name,Master,4
+model_name,AMX,4
+model_name,S-TYPE R,4
+model_name,3000,4
+model_name,Pantera,4
+model_name,E-TYPE,4
+model_name,Virage,4
+model_name,918 Spyder,4
+model_name,Spyder,4
+model_name,Jeep Wagon,4
+model_name,Esteem,4
+model_name,Achieva,4
+model_name,Cutlass Ciera,4
+model_name,MV-1,4
+model_name,J30,4
+model_name,Wagoneer,4
+model_name,220,4
+model_name,Murano Hybrid,4
+model_name,R/V 1500 Series,4
+model_name,Scout,4
+model_name,Neon SRT-4,4
+model_name,Catera,4
+model_name,400-Class,4
+model_name,Thing,4
+model_name,Millenia,4
+model_name,C/K 30,4
+model_name,Axiom,4
+model_name,Classic Pickup,4
+model_name,Hombre,4
+model_name,Accord Hybrid Plug-In,4
+model_name,Crestline,4
+model_name,Model B,4
+model_name,Elan,3
+model_name,Brooklands,3
+model_name,Corsica,3
+model_name,F-450,3
+model_name,Mondial,3
+model_name,Valiant,3
+model_name,Diplomat,3
+model_name,164,3
+model_name,Diablo,3
+model_name,Newport,3
+model_name,Elite,3
+model_name,TD,3
+model_name,Vanagon,3
+model_name,Silver Seraph,3
+model_name,Metropolitan,3
+model_name,Country Squire,3
+model_name,Montclair,3
+model_name,Jeepster,3
+model_name,SC 300,3
+model_name,Silver Cloud,3
+model_name,88,3
+model_name,Caballero,3
+model_name,Beretta,3
+model_name,Comanche,3
+model_name,Bronco II,3
+model_name,Q70 Hybrid,3
+model_name,Le Mans,3
+model_name,Midget,3
+model_name,Giulietta,3
+model_name,Park Lane,3
+model_name,Silver Shadow II,3
+model_name,Mystique,3
+model_name,Senna,3
+model_name,940,3
+model_name,Metro,3
+model_name,Victoria,3
+model_name,Maverick,3
+model_name,RAM 50 Pickup,3
+model_name,Special Service Hybrid Plug-In,3
+model_name,Star Chief,3
+model_name,850,3
+model_name,Amigo,3
+model_name,Countach,3
+model_name,Aerostar,3
+model_name,Javelin,3
+model_name,Scamp,3
+model_name,Champ,3
+model_name,Sprint,3
+model_name,Styleline Deluxe,3
+model_name,Silver Shadow,3
+model_name,STS-V,3
+model_name,F8 Tributo,3
+model_name,1M,3
+model_name,Ciera,3
+model_name,250,2
+model_name,Enzo,2
+model_name,8C Competizione,2
+model_name,P1,2
+model_name,R/V 3500,2
+model_name,Regency,2
+model_name,LS Hybrid,2
+model_name,M30,2
+model_name,Sprite,2
+model_name,Vista Cruiser,2
+model_name,Cutlass Calais,2
+model_name,Hornet,2
+model_name,Silvia,2
+model_name,Lumina Minivan,2
+model_name,600,2
+model_name,Typhoon,2
+model_name,Leganza,2
+model_name,Super Eight,2
+model_name,TR4A,2
+model_name,Darrin,2
+model_name,Sierra C3,2
+model_name,Rampage,2
+model_name,Series 1,2
+model_name,Cressida,2
+model_name,365,2
+model_name,Wayfarer,2
+model_name,Silverado 3500 Chassis,2
+model_name,Sierra C/K 1500,2
+model_name,Talon,2
+model_name,Vandura,2
+model_name,Type 2,2
+model_name,512 BBi,2
+model_name,365 GTC/4,2
+model_name,LaFerrari,2
+model_name,Mini,2
+model_name,Paseo,2
+model_name,V70 R,2
+model_name,Veyron,2
+model_name,Ranch Wagon,2
+model_name,Tercel,2
+model_name,Special Deluxe,2
+model_name,TR3A,2
+model_name,Azzurra,2
+model_name,Trans Sport,2
+model_name,Silver Spirit,2
+model_name,TF,2
+model_name,Streamliner,2
+model_name,Skyline,2
+model_name,Starfire,2
+model_name,Conquest,2
+model_name,S-15,2
+model_name,MAZDASPEED MX-5 Miata,2
+model_name,D-Series,2
+model_name,R/V 30,2
+model_name,Power Wagon,2
+model_name,Lark,2
+model_name,Sunbird,2
+model_name,Concord,2
+model_name,Alpine,2
+model_name,Master Eagle,2
+model_name,Royal,2
+model_name,Series IIA,2
+model_name,Econoline Pickup,2
+model_name,Delray,2
+model_name,Champion,2
+model_name,Civic CRX,2
+model_name,Cedric,2
+model_name,Rally Wagon,2
+model_name,Super 88,2
+model_name,Pinto,2
+model_name,Courier,2
+model_name,Isetta,2
+model_name,DMC-12,2
+model_name,240SX,2
+model_name,Aspire,2
+model_name,510,2
+model_name,C8,1
+model_name,250 GT,1
+model_name,Manhattan,1
+model_name,Vigor,1
+model_name,Lagonda,1
+model_name,RAM 350,1
+model_name,F12tdf,1
+model_name,Huayra,1
+model_name,Cortina,1
+model_name,Superbird,1
+model_name,400,1
+model_name,Mighty Max Pickup,1
+model_name,Karmann Ghia,1
+model_name,Superior,1
+model_name,Plaza,1
+model_name,Omni,1
+model_name,Jetstar 88,1
+model_name,Ventura,1
+model_name,Series 75,1
+model_name,Stylemaster,1
+model_name,R/V 20,1
+model_name,1100,1
+model_name,P1800,1
+model_name,230SL,1
+model_name,Brooklands R,1
+model_name,Mark IX,1
+model_name,Shadow,1
+model_name,Pajero,1
+model_name,Aura Hybrid Green Line,1
+model_name,Cordoba,1
+model_name,Syclone,1
+model_name,350-Class,1
+model_name,S-10 Blazer,1
+model_name,ION Red Line,1
+model_name,Model 74/78,1
+model_name,Travelall,1
+model_name,Sixty Special,1
+model_name,Series III Asha,1
+model_name,Series 61,1
+model_name,Sidekick,1
+model_name,Sierra Classic 2500,1
+model_name,Dictator,1
+model_name,Confederate,1
+model_name,230E,1
+model_name,Hawk,1
+model_name,240Z,1
+model_name,Somerset,1
+model_name,SLX,1
+model_name,AT,1
+model_name,250 GTO,1
+model_name,Commando,1
+model_name,Trooper II,1
+model_name,Previa,1
+model_name,Volante,1
+model_name,J-20,1
+model_name,Mexico,1
+model_name,Interceptor,1
+model_name,TR7,1
+model_name,Patrol,1
+model_name,Tucson Fuel Cell,1
+model_name,Park Ward,1
+model_name,400i,1
+model_name,S-15 Jimmy,1
+model_name,456,1
+model_name,3.5 Litre,1
+model_name,Phantom VI,1
+model_name,S7 Twin Turbo,1
+model_name,Tribute Hybrid,1
+model_name,Falcon Futura,1
+model_name,CCXR Trevita,1
+model_name,TR3,1
+model_name,C/K 1000 Series,1
+model_name,Saratoga,1
+model_name,AK Series,1
+model_name,Corona,1
+model_name,Model 48,1
+model_name,Hiace,1
+model_name,1900,1
+model_name,Aries,1
+model_name,Probe,1
+model_name,Colt,1
+model_name,Laser,1
+model_name,Dino 246,1
+model_name,365 GTB/4,1
+model_name,Monaco,1
+model_name,200SX,1
+model_name,Kadett,1
+model_name,Fleetmaster,1
+model_name,Rambler Classic,1
+model_name,Breeze,1
+model_name,V8,1
+model_name,Sierra C/K 3500,1
+model_name,S1,1
+model_name,Silver Dawn,1
+model_name,S2,1
+model_name,Acclaim,1
+model_name,Celebrity,1
+model_name,R/V 3500 Series,1
+model_name,Chevette,1
+model_name,R/V 2500 Series,1
+model_name,Humvee,1
+model_name,Jalpa,1
+model_name,959,1
+model_name,95,1
+model_name,Durango Hybrid,1
+model_name,550 Spyder,1
+model_name,Stag,1
+model_name,GTV,1
+model_name,Minx,1
+model_name,M151A2,1
+model_name,Princess,1
+model_name,100,1
+model_name,Minor,1
+model_name,Terraplane,1
+model_name,Panel Truck,1
+model_name,3200,1
+model_name,Premiere,1
+model_name,Fleetline,1
+model_name,2000,1
+model_name,Type 3,1
+model_name,110,1
+model_name,Cameo Carrier,1
+model_name,Super Snipe,1
+model_name,Caribbean,1
+model_name,120,1
+model_name,P10,1
+model_name,Spirit,1
+model_name,Wildcat,1
+model_name,Standard,1
+model_name,LaSalle,1
+model_name,Atom,1
+model_name,RAM 100,1
+model_name,Ambassador,1
+model_name,TR8,1
+model_name,Espada,1
+model_name,Crown,1
+model_name,Firedome,1
+model_name,Dynamic 88,1
+model_name,M38A1,1
+model_name,J2X,1
+model_name,SV-1,1
+model_name,Windsor,1
+model_name,Savoy,1
+model_name,LSS,1
+model_name,Topaz,1
+model_name,Granada,1
+model_name,Transit Connect Electric,1
+model_name,Windstar Cargo,1
+model_name,740,1
+model_name,Clipper,1
+model_name,Lanos,1
+model_name,Omega,1
+model_name,Mark V,1
+model_name,Luxury Liner,1
+model_name,Samurai,1
+model_name,Cambridge,1
+model_name,Storm,1
+model_name,3.0CSi,1
+transmission_display,Automatic,1209642
+transmission_display,6-Speed Automatic,412581
+transmission_display,Continuously Variable Transmission,412474
+transmission_display,8-Speed Automatic,318645
+transmission_display,9-Speed Automatic,138020
+transmission_display,6-Speed Automatic Overdrive,83309
+transmission_display,MISSING,59455
+transmission_display,7-Speed Automatic,43558
+transmission_display,5-Speed Automatic,40406
+transmission_display,4-Speed Automatic,35819
+transmission_display,6-Speed Manual,20910
+transmission_display,Manual,16615
+transmission_display,5-Speed Automatic Overdrive,11942
+transmission_display,8-Speed Automatic Overdrive,11854
+transmission_display,4-Speed Automatic Overdrive,8015
+transmission_display,5-Speed Manual,7802
+transmission_display,1-Speed Automatic,7651
+transmission_display,6-Speed Dual Clutch,6081
+transmission_display,9-Speed Automatic Overdrive,3994
+transmission_display,8-Speed Dual Clutch,2615
+transmission_display,7-Speed Automatic Overdrive,1919
+transmission_display,7-Speed CVT,1844
+transmission_display,7-Speed Dual Clutch,1673
+transmission_display,6-Speed Manual Overdrive,708
+transmission_display,5-Speed Manual Overdrive,677
+transmission_display,6-Speed CVT,548
+transmission_display,4-Speed Manual,548
+transmission_display,3-Speed Automatic,518
+transmission_display,10-Speed Automatic,489
+transmission_display,7-Speed Manual,461
+transmission_display,1-Speed CVT,441
+transmission_display,2-Speed Automatic,390
+transmission_display,1-Speed Dual Clutch,265
+transmission_display,8-Speed CVT,160
+transmission_display,3-Speed Manual,136
+transmission_display,8-Speed Manual,39
+transmission_display,4-Speed CVT,17
+transmission_display,4-Speed Manual Overdrive,3
+transmission_display,9-Speed Dual Clutch,2
+transmission_display,5-Speed Dual Clutch,2
+transmission_display,10-Speed Dual Clutch,1
+transmission_display,7-Speed Manual Overdrive,1
+transmission_display,4-Speed Dual Clutch,1
+transmission_display,10-Speed CVT,1
+transmission_display,3-Speed Automatic Overdrive,1
+transmission_display (Electric),Automatic,9690
+transmission_display (Electric),1-Speed Automatic,5106
+transmission_display (Electric),2-Speed Automatic,278
+transmission_display (Electric),MISSING,219
+transmission_display (Electric),1-Speed Dual Clutch,172
+transmission_display (Electric),Continuously Variable Transmission,23
+transmission_display (Electric),6-Speed Automatic,12
+transmission_display (Electric),Manual,3
+transmission_display (Electric),7-Speed CVT,1
+transmission_display (Electric),3-Speed Automatic,1
+wheel_system,FWD,1187956
+wheel_system,AWD,668121
+wheel_system,4WD,567633
+wheel_system,RWD,186413
+wheel_system,MISSING,136141
+wheel_system,4X2,115969
+listed_date,2020-09-03,71909
+listed_date,2020-09-02,67744
+listed_date,2020-09-04,66128
+listed_date,2020-09-05,64401
+listed_date,2020-08-29,57499
+listed_date,2020-08-28,56256
+listed_date,2020-08-27,56049
+listed_date,2020-08-26,53784
+listed_date,2020-09-10,51684
+listed_date,2020-08-21,49479
+listed_date,2020-08-22,49309
+listed_date,2020-08-20,46500
+listed_date,2020-09-06,44944
+listed_date,2020-08-30,44371
+listed_date,2020-08-19,43820
+listed_date,2020-09-09,43377
+listed_date,2020-08-14,41281
+listed_date,2020-08-15,40669
+listed_date,2020-08-13,40508
+listed_date,2020-08-12,37404
+listed_date,2020-08-06,37398
+listed_date,2020-09-01,35854
+listed_date,2020-08-08,35011
+listed_date,2020-08-23,34672
+listed_date,2020-08-07,34068
+listed_date,2020-08-01,33278
+listed_date,2020-07-31,32389
+listed_date,2020-08-16,29644
+listed_date,2020-07-30,29614
+listed_date,2020-08-25,28158
+listed_date,2020-07-25,26328
+listed_date,2020-07-29,26120
+listed_date,2020-07-24,24735
+listed_date,2020-08-05,24352
+listed_date,2020-07-23,24175
+listed_date,2020-08-09,23975
+listed_date,2020-08-02,23405
+listed_date,2020-08-18,23236
+listed_date,2020-07-22,22791
+listed_date,2020-07-18,22390
+listed_date,2020-08-11,21708
+listed_date,2020-07-17,20744
+listed_date,2020-09-11,20130
+listed_date,2020-07-16,20107
+listed_date,2020-07-26,18486
+listed_date,2020-07-15,18391
+listed_date,2020-07-10,17795
+listed_date,2020-08-31,17766
+listed_date,2020-09-08,17606
+listed_date,2020-09-07,17498
+listed_date,2020-07-11,17094
+listed_date,2020-07-02,16718
+listed_date,2020-07-09,16636
+listed_date,2020-08-04,15788
+listed_date,2020-07-03,15768
+listed_date,2020-07-01,14792
+listed_date,2020-07-08,14790
+listed_date,2020-06-27,14201
+listed_date,2020-07-19,14192
+listed_date,2020-07-04,13871
+listed_date,2020-07-28,13814
+listed_date,2020-08-24,13220
+listed_date,2020-06-26,13041
+listed_date,2020-06-25,12566
+listed_date,2020-07-12,12090
+listed_date,2020-06-20,11388
+listed_date,2020-06-24,11358
+listed_date,2020-06-19,10840
+listed_date,2020-07-21,10681
+listed_date,2020-08-17,10614
+listed_date,2020-06-18,10561
+listed_date,2020-07-14,10067
+listed_date,2020-06-13,9421
+listed_date,2020-06-28,9342
+listed_date,2020-08-10,9135
+listed_date,2020-06-17,9120
+listed_date,2020-08-03,8374
+listed_date,2020-06-11,8198
+listed_date,2020-07-05,7593
+listed_date,2020-06-12,7588
+listed_date,2020-06-30,7337
+listed_date,2020-04-02,7316
+listed_date,2020-09-12,6992
+listed_date,2020-06-21,6891
+listed_date,2020-06-10,6735
+listed_date,2020-07-07,6711
+listed_date,2020-06-06,6456
+listed_date,2020-06-05,6353
+listed_date,2020-02-22,6334
+listed_date,2020-07-27,6169
+listed_date,2020-06-04,5972
+listed_date,2020-06-23,5774
+listed_date,2020-06-14,5650
+listed_date,2020-03-19,5625
+listed_date,2020-03-07,5320
+listed_date,2020-03-20,5171
+listed_date,2020-03-13,5162
+listed_date,2020-03-14,5103
+listed_date,2020-06-03,5101
+listed_date,2020-02-29,5077
+listed_date,2020-05-29,5024
+listed_date,2020-03-12,5012
+listed_date,2020-05-02,4963
+listed_date,2020-05-30,4962
+listed_date,2020-03-05,4875
+listed_date,2020-03-11,4848
+listed_date,2020-02-28,4807
+listed_date,2020-07-20,4746
+listed_date,2020-03-06,4575
+listed_date,2020-06-16,4575
+listed_date,2020-02-27,4528
+listed_date,2020-03-21,4438
+listed_date,2020-03-18,4435
+listed_date,2020-05-28,4434
+listed_date,2020-02-14,4425
+listed_date,2020-06-07,4359
+listed_date,2020-03-28,4220
+listed_date,2020-02-26,4050
+listed_date,2020-03-04,4013
+listed_date,2020-02-23,4004
+listed_date,2020-04-01,3990
+listed_date,2020-02-20,3983
+listed_date,2020-02-21,3967
+listed_date,2020-05-23,3919
+listed_date,2020-02-13,3871
+listed_date,2020-02-15,3796
+listed_date,2020-05-16,3751
+listed_date,2020-05-22,3746
+listed_date,2020-05-31,3683
+listed_date,2020-03-25,3678
+listed_date,2020-02-01,3509
+listed_date,2020-02-19,3509
+listed_date,2020-03-15,3508
+listed_date,2020-03-08,3428
+listed_date,2020-06-09,3428
+listed_date,2020-02-12,3387
+listed_date,2020-07-13,3386
+listed_date,2020-03-27,3378
+listed_date,2020-03-26,3358
+listed_date,2020-05-21,3326
+listed_date,2020-01-30,3320
+listed_date,2020-02-06,3282
+listed_date,2020-06-29,3263
+listed_date,2020-03-01,3262
+listed_date,2020-02-07,3201
+listed_date,2020-05-15,3199
+listed_date,2020-03-29,3176
+listed_date,2020-01-31,3104
+listed_date,2019-12-11,3060
+listed_date,2020-02-08,3050
+listed_date,2020-05-20,3028
+listed_date,2020-01-24,3020
+listed_date,2020-01-17,2954
+listed_date,2020-04-03,2930
+listed_date,2020-01-08,2907
+listed_date,2020-01-29,2904
+listed_date,2020-01-10,2897
+listed_date,2020-06-02,2892
+listed_date,2020-01-23,2885
+listed_date,2019-12-21,2851
+listed_date,2020-01-01,2811
+listed_date,2019-12-12,2802
+listed_date,2020-01-09,2776
+listed_date,2019-12-19,2747
+listed_date,2019-12-18,2732
+listed_date,2020-03-24,2729
+listed_date,2020-05-24,2668
+listed_date,2019-12-14,2646
+listed_date,2020-01-11,2645
+listed_date,2020-01-25,2641
+listed_date,2019-12-29,2632
+listed_date,2019-12-20,2616
+listed_date,2020-05-27,2607
+listed_date,2020-01-16,2597
+listed_date,2020-03-10,2595
+listed_date,2020-01-18,2561
+listed_date,2019-12-06,2556
+listed_date,2020-02-16,2554
+listed_date,2020-02-05,2539
+listed_date,2020-05-14,2521
+listed_date,2019-12-13,2495
+listed_date,2020-04-04,2483
+listed_date,2020-05-13,2482
+listed_date,2020-05-07,2449
+listed_date,2020-02-02,2440
+listed_date,2020-03-17,2409
+listed_date,2020-05-01,2397
+listed_date,2020-04-09,2392
+listed_date,2019-11-27,2376
+listed_date,2020-01-15,2363
+listed_date,2020-05-09,2343
+listed_date,2020-05-08,2326
+listed_date,2019-12-28,2323
+listed_date,2020-04-29,2320
+listed_date,2020-06-22,2318
+listed_date,2019-12-07,2290
+listed_date,2020-03-23,2280
+listed_date,2020-01-04,2277
+listed_date,2019-11-23,2242
+listed_date,2019-11-28,2239
+listed_date,2020-03-03,2208
+listed_date,2020-01-22,2198
+listed_date,2019-11-22,2194
+listed_date,2020-04-10,2187
+listed_date,2020-04-08,2177
+listed_date,2019-12-25,2155
+listed_date,2020-04-11,2122
+listed_date,2020-05-17,2047
+listed_date,2020-04-24,2020
+listed_date,2020-01-26,2000
+listed_date,2020-02-09,1997
+listed_date,2020-04-25,1993
+listed_date,2019-12-05,1955
+listed_date,2020-05-06,1943
+listed_date,2019-11-21,1905
+listed_date,2020-04-22,1891
+listed_date,2020-04-30,1887
+listed_date,2019-12-04,1883
+listed_date,2019-11-15,1876
+listed_date,2020-04-23,1869
+listed_date,2019-11-09,1862
+listed_date,2019-11-16,1856
+listed_date,2020-01-02,1838
+listed_date,2020-02-18,1830
+listed_date,2020-04-17,1820
+listed_date,2020-01-19,1819
+listed_date,2019-11-20,1791
+listed_date,2020-01-05,1785
+listed_date,2020-01-12,1781
+listed_date,2019-11-01,1780
+listed_date,2020-04-16,1769
+listed_date,2020-06-15,1749
+listed_date,2019-12-15,1700
+listed_date,2019-11-13,1692
+listed_date,2020-04-15,1682
+listed_date,2019-11-08,1673
+listed_date,2019-12-22,1665
+listed_date,2019-11-14,1645
+listed_date,2020-04-18,1640
+listed_date,2019-11-06,1630
+listed_date,2020-04-05,1630
+listed_date,2020-07-06,1629
+listed_date,2020-02-25,1609
+listed_date,2020-05-10,1599
+listed_date,2019-11-07,1598
+listed_date,2020-02-11,1588
+listed_date,2020-03-31,1576
+listed_date,2019-12-08,1564
+listed_date,2020-05-19,1529
+listed_date,2019-10-30,1520
+listed_date,2019-11-02,1516
+listed_date,2020-05-03,1501
+listed_date,2019-11-24,1493
+listed_date,2019-10-31,1485
+listed_date,2019-10-26,1457
+listed_date,2019-10-25,1445
+listed_date,2019-10-18,1437
+listed_date,2019-11-29,1436
+listed_date,2019-10-02,1390
+listed_date,2020-06-08,1380
+listed_date,2019-10-19,1372
+listed_date,2019-10-05,1371
+listed_date,2019-10-04,1366
+listed_date,2019-10-16,1354
+listed_date,2019-10-11,1351
+listed_date,2020-01-28,1344
+listed_date,2020-04-26,1341
+listed_date,2020-03-22,1306
+listed_date,2019-10-24,1301
+listed_date,2020-03-30,1300
+listed_date,2019-10-10,1299
+listed_date,2020-05-12,1292
+listed_date,2020-04-12,1260
+listed_date,2019-10-12,1256
+listed_date,2020-01-03,1239
+listed_date,2019-12-24,1218
+listed_date,2019-09-27,1216
+listed_date,2019-12-31,1206
+listed_date,2019-10-23,1205
+listed_date,2020-02-04,1202
+listed_date,2019-10-17,1189
+listed_date,2019-09-28,1189
+listed_date,2019-10-03,1188
+listed_date,2019-11-17,1187
+listed_date,2019-10-09,1182
+listed_date,2020-04-28,1180
+listed_date,2020-06-01,1172
+listed_date,2019-11-10,1163
+listed_date,2020-01-07,1160
+listed_date,2019-09-18,1154
+listed_date,2020-01-14,1153
+listed_date,2019-11-03,1144
+listed_date,2020-04-07,1142
+listed_date,2019-09-14,1122
+listed_date,2020-03-02,1098
+listed_date,2019-09-25,1092
+listed_date,2020-05-05,1074
+listed_date,2019-09-21,1059
+listed_date,2019-09-20,1059
+listed_date,2020-04-19,1048
+listed_date,2019-12-10,1036
+listed_date,2020-03-16,1022
+listed_date,2020-01-21,1018
+listed_date,2019-10-27,1017
+listed_date,2020-04-21,1010
+listed_date,2019-09-19,1006
+listed_date,2019-09-12,999
+listed_date,2019-09-11,996
+listed_date,2020-03-09,992
+listed_date,2019-12-17,989
+listed_date,2019-08-31,989
+listed_date,2019-12-01,987
+listed_date,2019-09-13,976
+listed_date,2019-09-26,973
+listed_date,2019-08-28,926
+listed_date,2019-08-29,926
+listed_date,2019-08-30,909
+listed_date,2019-12-27,904
+listed_date,2019-10-13,900
+listed_date,2019-09-06,897
+listed_date,2019-11-19,871
+listed_date,2020-05-26,855
+listed_date,2019-12-26,851
+listed_date,2019-10-06,843
+listed_date,2020-05-25,840
+listed_date,2019-10-20,838
+listed_date,2019-11-30,829
+listed_date,2019-07-31,798
+listed_date,2020-02-24,784
+listed_date,2019-09-05,780
+listed_date,2019-08-23,768
+listed_date,2019-09-01,766
+listed_date,2019-12-03,760
+listed_date,2020-02-10,758
+listed_date,2019-09-15,756
+listed_date,2019-08-15,750
+listed_date,2019-09-08,742
+listed_date,2019-08-24,737
+listed_date,2019-09-22,719
+listed_date,2020-05-18,709
+listed_date,2019-10-29,691
+listed_date,2020-02-17,690
+listed_date,2020-04-14,683
+listed_date,2019-10-01,672
+listed_date,2020-01-20,666
+listed_date,2019-11-12,666
+listed_date,2020-01-27,665
+listed_date,2019-08-22,660
+listed_date,2019-11-26,658
+listed_date,2019-12-23,653
+listed_date,2019-08-17,636
+listed_date,2019-08-16,629
+listed_date,2020-05-11,615
+listed_date,2019-08-14,615
+listed_date,2019-08-21,615
+listed_date,2020-02-03,608
+listed_date,2019-11-05,577
+listed_date,2019-08-25,574
+listed_date,2019-09-30,567
+listed_date,2019-09-07,562
+listed_date,2019-08-01,550
+listed_date,2019-08-02,550
+listed_date,2019-10-22,549
+listed_date,2019-08-10,545
+listed_date,2019-07-18,545
+listed_date,2019-09-29,534
+listed_date,2019-08-09,524
+listed_date,2019-08-07,513
+listed_date,2019-08-08,506
+listed_date,2020-01-06,506
+listed_date,2019-12-30,505
+listed_date,2019-10-15,503
+listed_date,2020-05-04,485
+listed_date,2019-09-10,482
+listed_date,2019-12-09,479
+listed_date,2020-04-06,477
+listed_date,2019-08-03,467
+listed_date,2019-10-08,466
+listed_date,2019-11-25,465
+listed_date,2019-08-18,452
+listed_date,2020-04-20,447
+listed_date,2020-01-13,437
+listed_date,2019-09-24,436
+listed_date,2019-07-26,427
+listed_date,2019-03-12,425
+listed_date,2019-07-13,419
+listed_date,2019-07-20,413
+listed_date,2019-07-24,409
+listed_date,2019-07-27,405
+listed_date,2019-07-25,400
+listed_date,2020-04-13,399
+listed_date,2019-09-04,398
+listed_date,2020-04-27,398
+listed_date,2019-08-11,388
+listed_date,2019-12-16,388
+listed_date,2019-09-09,370
+listed_date,2019-09-17,369
+listed_date,2019-07-19,349
+listed_date,2019-06-29,348
+listed_date,2019-08-04,345
+listed_date,2019-12-02,338
+listed_date,2019-07-03,337
+listed_date,2019-07-28,323
+listed_date,2019-07-17,320
+listed_date,2019-07-12,319
+listed_date,2019-07-04,315
+listed_date,2019-07-10,311
+listed_date,2019-06-27,298
+listed_date,2019-06-26,298
+listed_date,2019-05-08,296
+listed_date,2019-11-18,295
+listed_date,2019-07-11,294
+listed_date,2019-11-04,288
+listed_date,2019-08-20,287
+listed_date,2019-06-01,272
+listed_date,2019-06-28,267
+listed_date,2019-06-21,267
+listed_date,2019-05-02,265
+listed_date,2019-11-11,265
+listed_date,2019-06-22,261
+listed_date,2019-05-31,259
+listed_date,2019-06-20,258
+listed_date,2019-07-21,255
+listed_date,2019-08-13,247
+listed_date,2019-06-30,247
+listed_date,2019-07-05,241
+listed_date,2019-05-04,238
+listed_date,2019-06-07,237
+listed_date,2019-05-01,235
+listed_date,2019-06-08,232
+listed_date,2019-06-23,230
+listed_date,2019-05-18,229
+listed_date,2019-06-06,225
+listed_date,2019-06-15,223
+listed_date,2019-05-23,221
+listed_date,2019-06-12,218
+listed_date,2019-06-13,218
+listed_date,2019-10-28,215
+listed_date,2019-07-02,215
+listed_date,2019-06-14,214
+listed_date,2019-08-06,210
+listed_date,2019-09-16,210
+listed_date,2019-05-25,209
+listed_date,2019-07-07,209
+listed_date,2019-07-14,208
+listed_date,2019-06-19,207
+listed_date,2019-04-19,205
+listed_date,2019-05-17,203
+listed_date,2019-07-30,202
+listed_date,2019-05-11,198
+listed_date,2019-10-21,196
+listed_date,2019-06-05,195
+listed_date,2019-05-30,193
+listed_date,2019-05-03,192
+listed_date,2019-10-14,191
+listed_date,2019-09-23,190
+listed_date,2019-04-05,188
+listed_date,2019-07-23,186
+listed_date,2019-05-09,185
+listed_date,2019-05-24,185
+listed_date,2019-04-03,183
+listed_date,2019-04-26,182
+listed_date,2019-10-07,181
+listed_date,2019-04-06,178
+listed_date,2019-08-27,175
+listed_date,2019-08-26,171
+listed_date,2019-07-16,170
+listed_date,2019-05-10,170
+listed_date,2019-04-11,168
+listed_date,2019-04-20,167
+listed_date,2019-05-22,167
+listed_date,2019-04-12,167
+listed_date,2019-06-02,166
+listed_date,2019-04-18,163
+listed_date,2019-05-05,163
+listed_date,2019-05-16,163
+listed_date,2019-03-29,160
+listed_date,2019-03-22,160
+listed_date,2019-05-26,157
+listed_date,2019-04-13,155
+listed_date,2019-05-15,155
+listed_date,2019-04-10,154
+listed_date,2019-03-23,153
+listed_date,2019-04-25,153
+listed_date,2019-09-02,151
+listed_date,2019-04-24,150
+listed_date,2019-04-27,149
+listed_date,2019-04-04,147
+listed_date,2019-03-30,145
+listed_date,2019-03-14,144
+listed_date,2019-06-16,142
+listed_date,2019-03-28,139
+listed_date,2019-07-06,138
+listed_date,2019-03-15,138
+listed_date,2019-03-07,138
+listed_date,2019-03-31,136
+listed_date,2019-07-29,136
+listed_date,2019-03-20,135
+listed_date,2019-06-25,135
+listed_date,2019-03-27,134
+listed_date,2019-07-09,133
+listed_date,2019-06-10,133
+listed_date,2019-06-09,131
+listed_date,2018-07-03,131
+listed_date,2018-12-13,130
+listed_date,2019-05-29,128
+listed_date,2019-02-28,128
+listed_date,2019-04-07,127
+listed_date,2017-09-19,127
+listed_date,2019-04-14,125
+listed_date,2019-02-01,122
+listed_date,2019-03-16,122
+listed_date,2019-01-02,120
+listed_date,2019-04-21,119
+listed_date,2019-08-05,118
+listed_date,2019-09-03,117
+listed_date,2019-08-12,116
+listed_date,2019-03-02,115
+listed_date,2019-04-17,115
+listed_date,2019-01-31,114
+listed_date,2018-12-28,114
+listed_date,2019-02-20,114
+listed_date,2019-02-13,114
+listed_date,2019-02-07,112
+listed_date,2019-03-06,111
+listed_date,2019-05-12,111
+listed_date,2019-03-08,110
+listed_date,2019-03-21,110
+listed_date,2019-03-09,110
+listed_date,2018-12-07,109
+listed_date,2019-05-19,107
+listed_date,2019-03-01,107
+listed_date,2019-02-16,106
+listed_date,2019-02-21,106
+listed_date,2019-08-19,105
+listed_date,2019-07-01,105
+listed_date,2019-02-23,105
+listed_date,2018-12-22,104
+listed_date,2019-03-17,103
+listed_date,2019-02-22,103
+listed_date,2018-12-01,102
+listed_date,2019-06-11,102
+listed_date,2019-02-15,101
+listed_date,2019-01-05,99
+listed_date,2019-01-19,98
+listed_date,2019-01-12,98
+listed_date,2019-01-04,97
+listed_date,2019-04-28,97
+listed_date,2019-01-17,97
+listed_date,2019-02-27,96
+listed_date,2018-12-06,95
+listed_date,2019-01-10,94
+listed_date,2018-12-20,93
+listed_date,2019-03-24,92
+listed_date,2019-05-07,92
+listed_date,2019-02-08,92
+listed_date,2015-01-14,92
+listed_date,2019-07-22,91
+listed_date,2019-06-04,91
+listed_date,2019-01-11,91
+listed_date,2018-11-02,90
+listed_date,2019-03-03,90
+listed_date,2019-01-09,90
+listed_date,2019-03-13,89
+listed_date,2018-12-19,88
+listed_date,2019-04-02,88
+listed_date,2019-02-17,87
+listed_date,2018-12-21,87
+listed_date,2019-02-09,87
+listed_date,2019-01-26,87
+listed_date,2019-03-10,86
+listed_date,2018-12-15,86
+listed_date,2018-11-28,86
+listed_date,2019-03-04,85
+listed_date,2019-05-21,84
+listed_date,2018-12-09,84
+listed_date,2018-11-30,84
+listed_date,2019-01-23,84
+listed_date,2019-02-14,83
+listed_date,2018-12-14,83
+listed_date,2019-01-13,83
+listed_date,2018-12-29,82
+listed_date,2019-02-02,82
+listed_date,2018-10-31,81
+listed_date,2019-01-18,81
+listed_date,2018-11-21,80
+listed_date,2018-11-22,80
+listed_date,2019-02-06,79
+listed_date,2018-11-01,79
+listed_date,2018-11-15,78
+listed_date,2019-07-15,78
+listed_date,2018-10-12,77
+listed_date,2018-10-13,76
+listed_date,2018-06-20,76
+listed_date,2019-06-18,75
+listed_date,2019-05-14,75
+listed_date,2019-07-08,75
+listed_date,2019-01-25,75
+listed_date,2020-09-13,75
+listed_date,2018-12-30,74
+listed_date,2019-01-16,71
+listed_date,2019-04-30,71
+listed_date,2019-01-30,71
+listed_date,2019-01-24,70
+listed_date,2018-12-05,69
+listed_date,2019-03-26,68
+listed_date,2019-06-24,68
+listed_date,2018-11-10,68
+listed_date,2019-03-05,68
+listed_date,2017-08-05,68
+listed_date,2018-11-29,67
+listed_date,2019-02-10,67
+listed_date,2018-12-23,66
+listed_date,2019-01-03,66
+listed_date,2018-11-03,65
+listed_date,2018-12-12,64
+listed_date,2019-01-20,64
+listed_date,2019-04-23,63
+listed_date,2019-01-06,63
+listed_date,2018-11-07,63
+listed_date,2018-11-09,62
+listed_date,2018-10-06,62
+listed_date,2019-04-16,62
+listed_date,2018-08-08,61
+listed_date,2019-02-25,61
+listed_date,2018-10-25,61
+listed_date,2018-11-16,61
+listed_date,2018-09-22,60
+listed_date,2018-12-08,60
+listed_date,2018-10-18,60
+listed_date,2019-04-09,59
+listed_date,2018-10-05,58
+listed_date,2019-03-19,58
+listed_date,2019-06-03,58
+listed_date,2019-02-03,58
+listed_date,2018-10-04,58
+listed_date,2018-10-26,57
+listed_date,2018-09-20,57
+listed_date,2019-05-27,57
+listed_date,2018-10-27,56
+listed_date,2018-10-03,56
+listed_date,2018-11-18,56
+listed_date,2019-01-27,55
+listed_date,2019-02-24,55
+listed_date,2018-05-03,55
+listed_date,2018-08-30,55
+listed_date,2018-09-01,55
+listed_date,2019-06-17,54
+listed_date,2018-09-28,54
+listed_date,2018-11-14,54
+listed_date,2018-09-29,54
+listed_date,2018-11-23,54
+listed_date,2018-10-28,53
+listed_date,2018-09-19,53
+listed_date,2018-10-24,53
+listed_date,2019-01-08,53
+listed_date,2018-09-27,53
+listed_date,2019-02-05,52
+listed_date,2018-09-15,52
+listed_date,2018-10-19,52
+listed_date,2018-11-17,52
+listed_date,2019-04-01,51
+listed_date,2018-11-08,51
+listed_date,2018-12-16,50
+listed_date,2018-10-11,50
+listed_date,2016-10-28,50
+listed_date,2018-12-02,49
+listed_date,2018-08-02,49
+listed_date,2018-08-25,48
+listed_date,2018-08-10,48
+listed_date,2018-10-02,47
+listed_date,2018-09-08,47
+listed_date,2018-09-14,46
+listed_date,2018-12-04,46
+listed_date,2018-10-20,46
+listed_date,2018-08-24,45
+listed_date,2018-08-31,45
+listed_date,2018-11-04,45
+listed_date,2018-10-10,45
+listed_date,2018-07-18,44
+listed_date,2018-09-07,44
+listed_date,2018-10-17,44
+listed_date,2018-08-16,43
+listed_date,2019-05-20,43
+listed_date,2018-09-06,42
+listed_date,2018-10-07,42
+listed_date,2018-10-14,42
+listed_date,2018-09-26,41
+listed_date,2018-08-04,41
+listed_date,2019-01-15,41
+listed_date,2019-01-01,41
+listed_date,2018-11-20,41
+listed_date,2018-02-22,40
+listed_date,2019-02-26,40
+listed_date,2019-01-22,40
+listed_date,2018-09-21,40
+listed_date,2019-05-28,40
+listed_date,2018-11-25,39
+listed_date,2018-07-13,39
+listed_date,2018-08-18,39
+listed_date,2018-09-09,39
+listed_date,2018-08-01,39
+listed_date,2019-05-13,39
+listed_date,2018-08-15,38
+listed_date,2019-04-15,38
+listed_date,2018-09-12,38
+listed_date,2018-11-11,38
+listed_date,2018-05-25,38
+listed_date,2018-09-02,37
+listed_date,2018-09-25,37
+listed_date,2018-05-31,37
+listed_date,2019-02-12,37
+listed_date,2018-12-18,37
+listed_date,2018-08-09,37
+listed_date,2019-05-06,37
+listed_date,2018-12-11,36
+listed_date,2018-08-22,36
+listed_date,2018-09-13,36
+listed_date,2018-08-17,36
+listed_date,2018-07-27,36
+listed_date,2019-04-29,36
+listed_date,2018-08-29,35
+listed_date,2018-07-28,35
+listed_date,2017-12-23,35
+listed_date,2019-02-19,35
+listed_date,2018-06-19,35
+listed_date,2019-01-29,33
+listed_date,2019-03-11,33
+listed_date,2019-03-18,33
+listed_date,2018-12-26,32
+listed_date,2018-06-07,31
+listed_date,2018-05-26,31
+listed_date,2018-07-07,31
+listed_date,2018-08-23,31
+listed_date,2019-03-25,31
+listed_date,2018-06-16,31
+listed_date,2018-07-21,30
+listed_date,2018-11-13,30
+listed_date,2018-06-29,30
+listed_date,2018-11-06,30
+listed_date,2017-02-16,30
+listed_date,2018-10-09,29
+listed_date,2018-10-21,29
+listed_date,2018-12-27,29
+listed_date,2018-08-11,29
+listed_date,2018-12-03,29
+listed_date,2018-06-28,29
+listed_date,2018-08-26,29
+listed_date,2018-07-26,28
+listed_date,2018-06-23,28
+listed_date,2018-09-23,28
+listed_date,2018-07-11,28
+listed_date,2018-04-06,28
+listed_date,2018-06-27,28
+listed_date,2018-05-04,28
+listed_date,2018-07-04,27
+listed_date,2018-01-05,27
+listed_date,2018-06-01,26
+listed_date,2018-09-05,26
+listed_date,2018-03-04,26
+listed_date,2018-04-28,26
+listed_date,2018-06-02,26
+listed_date,2019-04-22,26
+listed_date,2018-07-19,26
+listed_date,2018-08-14,26
+listed_date,2018-09-30,26
+listed_date,2018-11-12,25
+listed_date,2018-06-14,25
+listed_date,2019-02-18,25
+listed_date,2019-04-08,25
+listed_date,2018-03-23,25
+listed_date,2018-09-18,24
+listed_date,2018-04-22,24
+listed_date,2018-06-06,24
+listed_date,2018-07-12,24
+listed_date,2018-09-16,24
+listed_date,2019-01-28,23
+listed_date,2018-07-29,23
+listed_date,2019-01-14,23
+listed_date,2018-08-19,23
+listed_date,2018-11-27,23
+listed_date,2018-11-24,23
+listed_date,2018-06-30,23
+listed_date,2018-10-16,23
+listed_date,2018-07-20,23
+listed_date,2018-06-15,23
+listed_date,2018-06-21,23
+listed_date,2018-08-28,22
+listed_date,2018-10-30,22
+listed_date,2019-02-11,22
+listed_date,2019-02-04,22
+listed_date,2018-07-25,22
+listed_date,2018-07-10,22
+listed_date,2018-05-15,22
+listed_date,2018-09-11,22
+listed_date,2018-05-05,22
+listed_date,2018-04-25,21
+listed_date,2018-03-31,21
+listed_date,2018-03-01,21
+listed_date,2018-08-05,21
+listed_date,2018-03-22,21
+listed_date,2018-05-19,20
+listed_date,2018-02-01,20
+listed_date,2018-04-11,20
+listed_date,2018-04-21,20
+listed_date,2018-07-31,20
+listed_date,2018-03-28,20
+listed_date,2018-08-12,20
+listed_date,2018-04-27,20
+listed_date,2018-03-08,20
+listed_date,2016-03-01,20
+listed_date,2017-04-06,19
+listed_date,2018-08-21,19
+listed_date,2018-05-02,19
+listed_date,2018-08-03,19
+listed_date,2018-06-22,19
+listed_date,2018-03-29,19
+listed_date,2018-03-03,19
+listed_date,2018-05-12,19
+listed_date,2018-03-10,19
+listed_date,2018-03-15,19
+listed_date,2017-09-15,19
+listed_date,2018-05-17,19
+listed_date,2016-10-13,19
+listed_date,2018-05-09,19
+listed_date,2017-06-01,19
+listed_date,2018-10-23,18
+listed_date,2018-06-13,18
+listed_date,2018-07-14,18
+listed_date,2018-06-09,18
+listed_date,2019-01-21,18
+listed_date,2018-03-09,18
+listed_date,2018-05-30,18
+listed_date,2017-10-26,18
+listed_date,2017-10-02,18
+listed_date,2018-02-15,18
+listed_date,2018-05-27,18
+listed_date,2017-12-01,17
+listed_date,2018-04-13,17
+listed_date,2018-05-24,17
+listed_date,2018-06-24,17
+listed_date,2018-02-24,17
+listed_date,2018-04-20,17
+listed_date,2018-04-07,17
+listed_date,2018-10-01,17
+listed_date,2018-12-31,17
+listed_date,2017-10-20,17
+listed_date,2018-04-19,16
+listed_date,2018-03-24,16
+listed_date,2018-07-01,16
+listed_date,2018-04-14,16
+listed_date,2018-07-05,16
+listed_date,2018-07-06,16
+listed_date,2018-03-21,16
+listed_date,2018-01-12,16
+listed_date,2018-03-30,16
+listed_date,2018-07-22,16
+listed_date,2018-03-02,16
+listed_date,2018-05-23,16
+listed_date,2016-09-15,16
+listed_date,2018-02-28,16
+listed_date,2017-11-01,15
+listed_date,2018-07-15,15
+listed_date,2018-06-08,15
+listed_date,2017-12-16,15
+listed_date,2019-01-07,15
+listed_date,2018-12-24,15
+listed_date,2018-01-20,15
+listed_date,2017-03-14,15
+listed_date,2017-12-29,14
+listed_date,2018-01-24,14
+listed_date,2018-12-25,14
+listed_date,2018-05-18,14
+listed_date,2018-04-01,14
+listed_date,2018-11-05,14
+listed_date,2018-04-05,14
+listed_date,2018-09-17,14
+listed_date,2018-03-16,14
+listed_date,2018-07-08,14
+listed_date,2018-12-10,14
+listed_date,2017-12-13,14
+listed_date,2018-03-20,13
+listed_date,2018-02-07,13
+listed_date,2018-05-06,13
+listed_date,2018-02-18,13
+listed_date,2018-11-19,13
+listed_date,2018-06-05,13
+listed_date,2018-09-03,13
+listed_date,2017-12-22,13
+listed_date,2018-06-10,13
+listed_date,2018-01-21,13
+listed_date,2018-06-03,13
+listed_date,2017-12-09,13
+listed_date,2018-02-10,13
+listed_date,2017-12-02,13
+listed_date,2017-08-22,13
+listed_date,2017-10-25,13
+listed_date,2017-08-18,12
+listed_date,2017-03-25,12
+listed_date,2018-02-25,12
+listed_date,2018-03-17,12
+listed_date,2018-02-21,12
+listed_date,2018-04-04,12
+listed_date,2017-09-22,12
+listed_date,2018-04-26,12
+listed_date,2018-04-29,12
+listed_date,2018-03-25,12
+listed_date,2018-01-13,12
+listed_date,2017-05-13,12
+listed_date,2017-09-27,12
+listed_date,2017-05-02,12
+listed_date,2018-07-24,11
+listed_date,2018-04-15,11
+listed_date,2017-09-16,11
+listed_date,2018-04-12,11
+listed_date,2017-11-09,11
+listed_date,2018-03-07,11
+listed_date,2018-03-18,11
+listed_date,2018-01-27,11
+listed_date,2018-04-18,11
+listed_date,2018-05-13,11
+listed_date,2018-06-17,11
+listed_date,2018-05-16,11
+listed_date,2017-10-04,11
+listed_date,2018-10-08,11
+listed_date,2018-02-09,11
+listed_date,2018-04-08,11
+listed_date,2017-08-08,11
+listed_date,2018-08-13,11
+listed_date,2017-12-06,11
+listed_date,2018-01-26,10
+listed_date,2017-11-02,10
+listed_date,2017-10-29,10
+listed_date,2018-03-27,10
+listed_date,2018-07-17,10
+listed_date,2018-02-08,10
+listed_date,2018-01-10,10
+listed_date,2018-02-04,10
+listed_date,2018-11-26,10
+listed_date,2018-10-29,10
+listed_date,2017-09-23,10
+listed_date,2017-11-11,10
+listed_date,2018-03-11,10
+listed_date,2018-12-17,10
+listed_date,2018-08-07,10
+listed_date,2017-12-30,10
+listed_date,2018-01-14,10
+listed_date,2018-08-06,10
+listed_date,2018-02-14,10
+listed_date,2017-07-30,10
+listed_date,2018-01-06,10
+listed_date,2017-06-24,10
+listed_date,2015-09-17,10
+listed_date,2017-09-07,9
+listed_date,2018-05-10,9
+listed_date,2017-09-29,9
+listed_date,2018-01-31,9
+listed_date,2017-04-20,9
+listed_date,2018-02-02,9
+listed_date,2017-06-09,9
+listed_date,2015-08-15,9
+listed_date,2018-05-01,9
+listed_date,2017-11-10,9
+listed_date,2017-12-17,9
+listed_date,2017-12-03,9
+listed_date,2018-05-20,9
+listed_date,2018-06-12,9
+listed_date,2017-10-06,9
+listed_date,2017-04-21,9
+listed_date,2018-09-10,9
+listed_date,2018-06-04,9
+listed_date,2017-05-17,9
+listed_date,2017-11-16,9
+listed_date,2018-02-20,9
+listed_date,2017-09-14,9
+listed_date,2018-02-16,9
+listed_date,2018-07-02,9
+listed_date,2018-04-24,8
+listed_date,2016-11-12,8
+listed_date,2018-01-01,8
+listed_date,2017-12-07,8
+listed_date,2016-07-22,8
+listed_date,2016-02-27,8
+listed_date,2017-10-07,8
+listed_date,2018-04-03,8
+listed_date,2017-09-01,8
+listed_date,2018-01-28,8
+listed_date,2017-04-14,8
+listed_date,2018-07-16,8
+listed_date,2017-12-15,8
+listed_date,2017-08-31,8
+listed_date,2017-09-21,8
+listed_date,2018-08-27,8
+listed_date,2016-12-01,8
+listed_date,2017-10-05,8
+listed_date,2018-10-22,8
+listed_date,2017-10-18,8
+listed_date,2017-12-21,8
+listed_date,2018-09-04,8
+listed_date,2017-08-17,8
+listed_date,2017-09-08,8
+listed_date,2017-06-29,8
+listed_date,2017-07-01,8
+listed_date,2018-07-30,8
+listed_date,2014-12-18,8
+listed_date,2017-08-24,7
+listed_date,2018-01-17,7
+listed_date,2017-09-02,7
+listed_date,2018-05-08,7
+listed_date,2017-11-12,7
+listed_date,2017-10-27,7
+listed_date,2017-06-23,7
+listed_date,2017-02-14,7
+listed_date,2018-02-23,7
+listed_date,2018-01-07,7
+listed_date,2017-11-30,7
+listed_date,2018-05-11,7
+listed_date,2017-06-30,7
+listed_date,2017-05-19,7
+listed_date,2017-10-19,7
+listed_date,2018-07-09,7
+listed_date,2017-08-06,7
+listed_date,2017-03-30,7
+listed_date,2018-07-23,7
+listed_date,2018-08-20,7
+listed_date,2016-04-10,7
+listed_date,2016-09-29,7
+listed_date,2017-12-28,7
+listed_date,2017-08-20,7
+listed_date,2017-07-19,7
+listed_date,2017-02-01,7
+listed_date,2017-04-16,7
+listed_date,2017-09-13,7
+listed_date,2017-09-17,7
+listed_date,2017-05-26,7
+listed_date,2014-11-11,7
+listed_date,2017-06-02,7
+listed_date,2016-10-18,7
+listed_date,2018-05-22,7
+listed_date,2018-03-14,7
+listed_date,2016-02-04,7
+listed_date,2017-10-01,7
+listed_date,2018-01-22,7
+listed_date,2016-02-26,7
+listed_date,2017-12-10,7
+listed_date,2017-04-18,7
+listed_date,2017-07-28,7
+listed_date,2018-01-25,6
+listed_date,2016-10-22,6
+listed_date,2017-08-25,6
+listed_date,2018-02-11,6
+listed_date,2018-01-11,6
+listed_date,2017-12-24,6
+listed_date,2017-07-20,6
+listed_date,2017-02-19,6
+listed_date,2017-03-01,6
+listed_date,2017-10-22,6
+listed_date,2017-08-30,6
+listed_date,2018-01-18,6
+listed_date,2018-01-16,6
+listed_date,2017-07-21,6
+listed_date,2016-05-28,6
+listed_date,2017-05-24,6
+listed_date,2017-11-23,6
+listed_date,2017-06-16,6
+listed_date,2018-04-02,6
+listed_date,2017-11-03,6
+listed_date,2018-01-19,6
+listed_date,2017-10-11,6
+listed_date,2018-02-17,6
+listed_date,2017-11-04,6
+listed_date,2018-04-17,6
+listed_date,2017-10-13,6
+listed_date,2017-08-12,6
+listed_date,2017-05-05,6
+listed_date,2018-06-18,6
+listed_date,2018-02-27,6
+listed_date,2017-11-05,6
+listed_date,2017-10-14,6
+listed_date,2017-11-08,6
+listed_date,2016-05-19,6
+listed_date,2017-03-17,6
+listed_date,2018-10-15,6
+listed_date,2017-03-24,6
+listed_date,2017-09-28,6
+listed_date,2017-10-28,6
+listed_date,2016-11-08,6
+listed_date,2017-07-25,6
+listed_date,2017-11-18,6
+listed_date,2018-05-29,6
+listed_date,2016-10-07,6
+listed_date,2018-01-03,5
+listed_date,2017-09-26,5
+listed_date,2017-01-19,5
+listed_date,2017-11-17,5
+listed_date,2017-04-23,5
+listed_date,2017-05-12,5
+listed_date,2018-04-10,5
+listed_date,2017-08-03,5
+listed_date,2017-03-02,5
+listed_date,2017-05-03,5
+listed_date,2017-06-08,5
+listed_date,2018-03-13,5
+listed_date,2017-06-17,5
+listed_date,2017-06-07,5
+listed_date,2017-08-10,5
+listed_date,2017-10-23,5
+listed_date,2017-06-10,5
+listed_date,2017-09-10,5
+listed_date,2017-12-14,5
+listed_date,2018-09-24,5
+listed_date,2018-03-06,5
+listed_date,2017-02-11,5
+listed_date,2017-10-31,5
+listed_date,2017-04-01,5
+listed_date,2018-03-05,5
+listed_date,2017-02-15,5
+listed_date,2017-03-29,5
+listed_date,2017-08-09,5
+listed_date,2018-05-28,5
+listed_date,2017-01-29,5
+listed_date,2017-01-15,5
+listed_date,2018-02-05,5
+listed_date,2018-02-19,5
+listed_date,2017-12-04,5
+listed_date,2016-10-29,5
+listed_date,2017-08-13,5
+listed_date,2018-06-26,5
+listed_date,2017-06-11,5
+listed_date,2017-05-28,5
+listed_date,2018-06-11,5
+listed_date,2016-08-06,5
+listed_date,2017-08-11,5
+listed_date,2017-05-11,5
+listed_date,2016-10-05,5
+listed_date,2017-03-03,5
+listed_date,2015-01-30,5
+listed_date,2017-05-06,5
+listed_date,2017-06-14,5
+listed_date,2016-07-07,5
+listed_date,2015-11-06,5
+listed_date,2016-09-23,5
+listed_date,2016-09-30,5
+listed_date,2016-05-26,5
+listed_date,2017-01-21,5
+listed_date,2016-10-12,5
+listed_date,2016-03-05,5
+listed_date,2017-12-20,4
+listed_date,2018-01-23,4
+listed_date,2017-06-21,4
+listed_date,2015-12-31,4
+listed_date,2017-08-19,4
+listed_date,2017-10-24,4
+listed_date,2017-09-06,4
+listed_date,2017-10-03,4
+listed_date,2015-12-09,4
+listed_date,2017-01-04,4
+listed_date,2016-11-23,4
+listed_date,2017-04-29,4
+listed_date,2018-04-30,4
+listed_date,2018-02-13,4
+listed_date,2017-11-25,4
+listed_date,2016-06-10,4
+listed_date,2017-02-24,4
+listed_date,2017-11-21,4
+listed_date,2015-12-02,4
+listed_date,2017-05-25,4
+listed_date,2017-07-22,4
+listed_date,2017-05-27,4
+listed_date,2017-12-11,4
+listed_date,2017-03-09,4
+listed_date,2017-08-27,4
+listed_date,2015-07-29,4
+listed_date,2016-08-26,4
+listed_date,2017-11-19,4
+listed_date,2017-10-21,4
+listed_date,2017-07-29,4
+listed_date,2016-09-16,4
+listed_date,2016-10-14,4
+listed_date,2017-11-07,4
+listed_date,2017-08-26,4
+listed_date,2017-09-30,4
+listed_date,2016-05-11,4
+listed_date,2016-09-03,4
+listed_date,2016-09-25,4
+listed_date,2017-03-16,4
+listed_date,2016-08-11,4
+listed_date,2017-01-12,4
+listed_date,2016-07-04,4
+listed_date,2016-12-02,4
+listed_date,2016-12-15,4
+listed_date,2017-12-08,4
+listed_date,2017-10-08,4
+listed_date,2016-11-03,4
+listed_date,2017-03-21,4
+listed_date,2016-07-26,4
+listed_date,2016-11-30,4
+listed_date,2015-09-29,4
+listed_date,2016-04-26,4
+listed_date,2017-09-25,4
+listed_date,2017-04-25,3
+listed_date,2017-10-12,3
+listed_date,2017-03-11,3
+listed_date,2017-07-16,3
+listed_date,2016-12-28,3
+listed_date,2017-04-05,3
+listed_date,2017-07-07,3
+listed_date,2017-05-01,3
+listed_date,2015-06-18,3
+listed_date,2016-05-21,3
+listed_date,2016-09-20,3
+listed_date,2016-11-19,3
+listed_date,2017-04-28,3
+listed_date,2016-02-03,3
+listed_date,2016-09-09,3
+listed_date,2016-04-21,3
+listed_date,2017-06-03,3
+listed_date,2018-02-03,3
+listed_date,2017-06-22,3
+listed_date,2017-03-19,3
+listed_date,2017-01-08,3
+listed_date,2017-09-20,3
+listed_date,2017-04-07,3
+listed_date,2016-06-11,3
+listed_date,2017-09-12,3
+listed_date,2017-02-22,3
+listed_date,2017-12-31,3
+listed_date,2016-08-17,3
+listed_date,2017-12-27,3
+listed_date,2017-08-23,3
+listed_date,2017-09-04,3
+listed_date,2017-04-08,3
+listed_date,2018-03-19,3
+listed_date,2017-07-12,3
+listed_date,2016-12-29,3
+listed_date,2016-12-10,3
+listed_date,2017-11-15,3
+listed_date,2016-06-09,3
+listed_date,2017-05-09,3
+listed_date,2016-08-24,3
+listed_date,2017-01-27,3
+listed_date,2016-03-30,3
+listed_date,2017-10-16,3
+listed_date,2018-03-26,3
+listed_date,2017-08-02,3
+listed_date,2017-05-08,3
+listed_date,2014-11-23,3
+listed_date,2015-11-18,3
+listed_date,2018-05-21,3
+listed_date,2017-04-22,3
+listed_date,2017-07-09,3
+listed_date,2015-11-14,3
+listed_date,2017-04-04,3
+listed_date,2017-02-26,3
+listed_date,2016-04-02,3
+listed_date,2016-01-23,3
+listed_date,2017-10-15,3
+listed_date,2016-12-13,3
+listed_date,2017-06-15,3
+listed_date,2016-07-20,3
+listed_date,2017-06-25,3
+listed_date,2017-05-04,3
+listed_date,2018-06-25,3
+listed_date,2016-11-13,3
+listed_date,2018-02-12,3
+listed_date,2017-04-12,3
+listed_date,2016-12-03,3
+listed_date,2017-01-23,3
+listed_date,2016-09-17,3
+listed_date,2017-07-26,3
+listed_date,2016-03-20,3
+listed_date,2017-01-22,3
+listed_date,2016-06-18,3
+listed_date,2016-07-15,3
+listed_date,2017-04-30,3
+listed_date,2016-11-10,3
+listed_date,2018-01-02,3
+listed_date,2017-12-05,3
+listed_date,2016-05-05,3
+listed_date,2017-11-24,3
+listed_date,2017-11-26,3
+listed_date,2016-09-28,3
+listed_date,2016-10-06,3
+listed_date,2017-02-08,3
+listed_date,2016-04-27,2
+listed_date,2015-01-29,2
+listed_date,2017-03-08,2
+listed_date,2016-01-08,2
+listed_date,2016-07-30,2
+listed_date,2015-04-29,2
+listed_date,2016-06-05,2
+listed_date,2016-04-07,2
+listed_date,2013-11-05,2
+listed_date,2017-06-27,2
+listed_date,2015-07-31,2
+listed_date,2018-01-04,2
+listed_date,2013-07-04,2
+listed_date,2016-04-12,2
+listed_date,2017-02-10,2
+listed_date,2017-02-28,2
+listed_date,2017-12-12,2
+listed_date,2017-06-04,2
+listed_date,2016-08-19,2
+listed_date,2017-07-13,2
+listed_date,2016-07-19,2
+listed_date,2016-12-11,2
+listed_date,2017-01-25,2
+listed_date,2015-10-15,2
+listed_date,2016-07-03,2
+listed_date,2017-03-12,2
+listed_date,2018-05-14,2
+listed_date,2016-06-28,2
+listed_date,2017-05-31,2
+listed_date,2017-08-21,2
+listed_date,2017-01-28,2
+listed_date,2017-03-31,2
+listed_date,2018-01-29,2
+listed_date,2017-01-14,2
+listed_date,2016-03-04,2
+listed_date,2016-08-23,2
+listed_date,2017-05-23,2
+listed_date,2015-07-02,2
+listed_date,2015-10-25,2
+listed_date,2016-01-16,2
+listed_date,2016-09-02,2
+listed_date,2016-10-16,2
+listed_date,2018-04-09,2
+listed_date,2016-01-17,2
+listed_date,2016-12-04,2
+listed_date,2016-04-16,2
+listed_date,2015-08-20,2
+listed_date,2015-02-21,2
+listed_date,2017-01-18,2
+listed_date,2017-11-28,2
+listed_date,2017-07-11,2
+listed_date,2016-08-08,2
+listed_date,2018-04-16,2
+listed_date,2015-07-25,2
+listed_date,2015-10-07,2
+listed_date,2017-04-13,2
+listed_date,2016-03-06,2
+listed_date,2017-10-17,2
+listed_date,2017-09-18,2
+listed_date,2017-10-10,2
+listed_date,2016-01-01,2
+listed_date,2016-08-27,2
+listed_date,2016-03-19,2
+listed_date,2015-12-24,2
+listed_date,2016-12-31,2
+listed_date,2016-01-15,2
+listed_date,2016-06-12,2
+listed_date,2017-02-02,2
+listed_date,2016-03-03,2
+listed_date,2016-08-29,2
+listed_date,2016-06-27,2
+listed_date,2016-07-24,2
+listed_date,2017-11-22,2
+listed_date,2016-04-04,2
+listed_date,2017-09-11,2
+listed_date,2017-09-03,2
+listed_date,2015-09-27,2
+listed_date,2015-12-12,2
+listed_date,2016-02-13,2
+listed_date,2017-04-15,2
+listed_date,2016-08-30,2
+listed_date,2017-07-05,2
+listed_date,2017-02-23,2
+listed_date,2017-01-07,2
+listed_date,2018-04-23,2
+listed_date,2016-08-18,2
+listed_date,2015-12-23,2
+listed_date,2016-12-08,2
+listed_date,2017-11-14,2
+listed_date,2017-07-14,2
+listed_date,2015-10-20,2
+listed_date,2015-12-04,2
+listed_date,2016-05-15,2
+listed_date,2017-07-10,2
+listed_date,2017-07-27,2
+listed_date,2017-02-12,2
+listed_date,2017-03-23,2
+listed_date,2017-04-02,2
+listed_date,2016-12-26,2
+listed_date,2017-07-08,2
+listed_date,2015-12-11,2
+listed_date,2015-10-31,2
+listed_date,2017-02-13,2
+listed_date,2016-07-23,2
+listed_date,2016-11-17,2
+listed_date,2016-04-28,2
+listed_date,2016-09-11,2
+listed_date,2016-08-14,2
+listed_date,2016-03-26,2
+listed_date,2015-11-16,2
+listed_date,2015-05-13,2
+listed_date,2016-08-03,2
+listed_date,2015-09-30,2
+listed_date,2017-11-29,2
+listed_date,2016-06-15,2
+listed_date,2016-12-24,2
+listed_date,2016-05-07,2
+listed_date,2014-06-05,2
+listed_date,2017-07-18,2
+listed_date,2016-10-27,2
+listed_date,2016-04-01,2
+listed_date,2016-08-12,2
+listed_date,2016-05-27,2
+listed_date,2014-10-05,2
+listed_date,2016-10-21,2
+listed_date,2015-11-25,2
+listed_date,2016-09-13,2
+listed_date,2017-03-04,2
+listed_date,2017-03-15,2
+listed_date,2016-03-17,2
+listed_date,2015-09-13,2
+listed_date,2015-08-05,2
+listed_date,2016-12-16,2
+listed_date,2016-06-22,2
+listed_date,2016-02-24,2
+listed_date,2017-01-01,2
+listed_date,2017-05-14,2
+listed_date,2017-05-18,2
+listed_date,2014-12-05,2
+listed_date,2017-02-17,2
+listed_date,2017-03-05,2
+listed_date,2015-01-10,2
+listed_date,2015-04-18,2
+listed_date,2015-04-04,2
+listed_date,2014-12-21,2
+listed_date,2016-04-29,2
+listed_date,2014-10-21,1
+listed_date,2016-05-06,1
+listed_date,2017-06-20,1
+listed_date,2015-11-28,1
+listed_date,2016-09-21,1
+listed_date,2017-01-31,1
+listed_date,2015-08-30,1
+listed_date,2015-07-22,1
+listed_date,2017-08-15,1
+listed_date,2015-02-10,1
+listed_date,2017-01-02,1
+listed_date,2016-05-12,1
+listed_date,2015-04-05,1
+listed_date,2016-09-22,1
+listed_date,2016-11-11,1
+listed_date,2015-04-23,1
+listed_date,2015-05-07,1
+listed_date,2015-07-23,1
+listed_date,2016-10-03,1
+listed_date,2015-11-21,1
+listed_date,2015-09-01,1
+listed_date,2014-10-23,1
+listed_date,2015-08-08,1
+listed_date,2015-09-18,1
+listed_date,2015-12-01,1
+listed_date,2015-08-27,1
+listed_date,2016-02-19,1
+listed_date,2017-04-27,1
+listed_date,2015-05-10,1
+listed_date,2016-03-23,1
+listed_date,2013-04-03,1
+listed_date,2015-04-28,1
+listed_date,2013-05-20,1
+listed_date,2016-09-27,1
+listed_date,2016-10-15,1
+listed_date,2013-05-01,1
+listed_date,2015-09-23,1
+listed_date,2016-03-18,1
+listed_date,2014-10-30,1
+listed_date,2014-09-18,1
+listed_date,2014-11-21,1
+listed_date,2016-03-25,1
+listed_date,2016-03-24,1
+listed_date,2014-06-19,1
+listed_date,2016-10-26,1
+listed_date,2013-11-08,1
+listed_date,2016-04-18,1
+listed_date,2015-09-16,1
+listed_date,2015-11-10,1
+listed_date,2016-05-13,1
+listed_date,2016-08-05,1
+listed_date,2016-12-21,1
+listed_date,2016-02-23,1
+listed_date,2014-05-29,1
+listed_date,2015-02-15,1
+listed_date,2016-10-01,1
+listed_date,2015-08-16,1
+listed_date,2013-10-11,1
+listed_date,2017-12-19,1
+listed_date,2015-08-17,1
+listed_date,2017-01-20,1
+listed_date,2016-05-03,1
+listed_date,2015-11-13,1
+listed_date,2015-03-19,1
+listed_date,2015-07-03,1
+listed_date,2016-07-28,1
+listed_date,2016-10-02,1
+listed_date,2016-12-25,1
+listed_date,2016-07-25,1
+listed_date,2016-05-14,1
+listed_date,2016-04-09,1
+listed_date,2016-05-31,1
+listed_date,2017-06-06,1
+listed_date,2016-03-16,1
+listed_date,2016-02-07,1
+listed_date,2016-01-07,1
+listed_date,2017-09-24,1
+listed_date,2016-11-06,1
+listed_date,2017-02-05,1
+listed_date,2016-05-22,1
+listed_date,2015-04-02,1
+listed_date,2018-01-30,1
+listed_date,2016-10-09,1
+listed_date,2016-02-25,1
+listed_date,2016-08-21,1
+listed_date,2014-11-22,1
+listed_date,2015-03-28,1
+listed_date,2015-05-12,1
+listed_date,2016-01-31,1
+listed_date,2014-11-29,1
+listed_date,2015-04-21,1
+listed_date,2015-12-08,1
+listed_date,2016-12-27,1
+listed_date,2015-05-23,1
+listed_date,2015-05-30,1
+listed_date,2017-07-31,1
+listed_date,2014-02-23,1
+listed_date,2015-05-17,1
+listed_date,2015-08-21,1
+listed_date,2017-02-25,1
+listed_date,2017-04-17,1
+listed_date,2016-06-14,1
+listed_date,2016-09-04,1
+listed_date,2018-02-06,1
+listed_date,2016-12-09,1
+listed_date,2015-04-03,1
+listed_date,2016-02-18,1
+listed_date,2017-04-11,1
+listed_date,2016-09-10,1
+listed_date,2017-09-09,1
+listed_date,2016-12-30,1
+listed_date,2016-09-12,1
+listed_date,2016-04-15,1
+listed_date,2015-07-16,1
+listed_date,2017-03-10,1
+listed_date,2017-04-19,1
+listed_date,2016-09-18,1
+listed_date,2017-05-22,1
+listed_date,2017-03-26,1
+listed_date,2014-08-08,1
+listed_date,2016-11-22,1
+listed_date,2017-06-19,1
+listed_date,2014-02-28,1
+listed_date,2017-06-12,1
+listed_date,2014-09-29,1
+listed_date,2017-09-05,1
+listed_date,2017-05-10,1
+listed_date,2015-10-08,1
+listed_date,2016-12-17,1
+listed_date,2015-05-09,1
+listed_date,2012-09-17,1
+listed_date,2016-12-19,1
+listed_date,2015-08-29,1
+listed_date,2017-06-26,1
+listed_date,2014-09-08,1
+listed_date,2014-09-20,1
+listed_date,2017-04-26,1
+listed_date,2016-12-18,1
+listed_date,2016-06-17,1
+listed_date,2014-08-21,1
+listed_date,2015-05-29,1
+listed_date,2015-05-03,1
+listed_date,2016-12-20,1
+listed_date,2016-04-22,1
+listed_date,2015-11-19,1
+listed_date,2015-10-29,1
+listed_date,2015-12-19,1
+listed_date,2017-01-11,1
+listed_date,2014-06-10,1
+listed_date,2016-06-02,1
+listed_date,2015-04-06,1
+listed_date,2016-06-16,1
+listed_date,2018-02-26,1
+listed_date,2017-06-13,1
+listed_date,2010-11-29,1
+listed_date,2015-03-13,1
+listed_date,2013-03-21,1
+listed_date,2017-04-03,1
+listed_date,2016-12-14,1
+listed_date,2015-12-25,1
+listed_date,2016-06-24,1
+listed_date,2017-08-07,1
+listed_date,2015-11-15,1
+listed_date,2016-07-09,1
+listed_date,2015-07-18,1
+listed_date,2018-03-12,1
+listed_date,2017-06-28,1
+listed_date,2015-06-19,1
+listed_date,2016-12-12,1
+listed_date,2014-05-25,1
+listed_date,2016-01-18,1
+listed_date,2016-06-21,1
+listed_date,2013-12-15,1
+listed_date,2017-05-07,1
+listed_date,2017-07-23,1
+listed_date,2016-09-08,1
+listed_date,2016-04-06,1
+listed_date,2016-11-09,1
+listed_date,2015-03-25,1
+listed_date,2016-07-01,1
+listed_date,2015-07-30,1
+listed_date,2017-01-30,1
+listed_date,2017-01-26,1
+listed_date,2016-11-27,1
+listed_date,2014-10-31,1
+listed_date,2015-04-24,1
+listed_date,2015-10-28,1
+listed_date,2016-05-18,1
+listed_date,2016-10-24,1
+listed_date,2016-03-13,1
+listed_date,2017-10-30,1
+listed_date,2016-01-21,1
+listed_date,2017-12-18,1
+listed_date,2018-01-09,1
+listed_date,2015-04-22,1
+listed_date,2016-01-29,1
+listed_date,2016-02-10,1
+listed_date,2016-07-31,1
+listed_date,2015-01-07,1
+listed_date,2012-08-06,1
+listed_date,2015-03-27,1
+listed_date,2016-03-07,1
+listed_date,2016-03-27,1
+listed_date,2016-05-01,1
+listed_date,2014-08-04,1
+listed_date,2015-04-10,1
+listed_date,2017-04-09,1
+listed_date,2017-01-10,1
+listed_date,2014-11-14,1
+listed_date,2014-03-20,1
+listed_date,2015-03-10,1
+listed_date,2016-02-15,1
+listed_date,2016-05-20,1
+listed_date,2016-06-08,1
+listed_date,2016-06-29,1
+listed_date,2017-08-29,1
+listed_date,2016-09-01,1
+listed_date,2014-01-29,1
+listed_date,2015-06-17,1
+listed_date,2017-01-13,1
+listed_date,2015-04-08,1
+listed_date,2016-07-29,1
+listed_date,2015-10-10,1
+listed_date,2013-11-07,1
+listed_date,2015-05-22,1
+listed_date,2016-11-01,1
+listed_date,2015-08-11,1
+listed_date,2015-04-11,1
+listed_date,2016-06-30,1
+listed_date,2016-07-16,1
+listed_date,2017-05-16,1
+listed_date,2016-02-16,1
+listed_date,2014-07-14,1
+listed_date,2016-08-07,1
+listed_date,2012-07-15,1
+listed_date,2016-04-23,1
+listed_date,2015-05-01,1
+listed_date,2016-03-31,1
+listed_date,2016-04-13,1
+listed_date,2016-03-10,1
+listed_date,2017-02-09,1
+listed_date,2016-11-16,1
+listed_date,2016-02-28,1
+listed_date,2015-06-09,1
+listed_date,2016-11-04,1
+listed_date,2015-09-02,1
+listed_date,2015-08-09,1
+listed_date,2011-07-23,1
+listed_date,2010-11-03,1
+listed_date,2015-12-15,1
+listed_date,2017-12-25,1
+listed_date,2014-08-12,1
+listed_date,2018-01-15,1
+listed_date,2016-09-26,1
+listed_date,2014-10-07,1
+listed_date,2016-08-09,1
+listed_date,2018-01-08,1
+listed_date,2017-11-20,1
+listed_date,2017-08-28,1
+listed_date,2014-04-19,1
+listed_date,2016-05-30,1
+listed_date,2015-07-12,1
+listed_date,2015-07-08,1
+listed_date,2013-09-01,1
+listed_date,2016-10-30,1
+listed_date,2017-07-17,1
+listed_date,2017-08-16,1
+listed_date,2014-05-11,1
+listed_date,2016-02-06,1
+listed_date,2016-09-19,1
+listed_date,2015-02-08,1
+listed_date,2016-10-31,1
+listed_date,2015-09-04,1
+listed_date,2016-11-05,1
+listed_date,2015-02-09,1
+listed_date,2015-03-07,1
+listed_date,2015-05-15,1
+listed_date,2015-02-05,1
+listed_date,2017-01-06,1
+listed_date,2015-06-25,1
+listed_date,2015-02-26,1
+listed_date,2016-06-04,1
+listed_date,2015-06-22,1
+listed_date,2016-03-11,1
+listed_date,2015-03-12,1
+listed_date,2017-07-03,1
+listed_date,2015-04-14,1
+listed_date,2016-04-24,1
+listed_date,2016-10-08,1
+listed_date,2015-03-14,1
+listed_date,2017-07-02,1
+listed_date,2016-02-20,1
+listed_date,2017-08-04,1
+listed_date,2015-07-20,1
+listed_date,2016-10-19,1
+listed_date,2015-04-20,1
+listed_date,2017-08-14,1
+listed_date,2016-03-02,1
+listed_date,2016-01-09,1
+listed_date,2016-12-23,1
+listed_date,2016-12-06,1
+listed_date,2015-03-18,1
+listed_date,2015-06-04,1
+listed_date,2014-05-03,1
+listed_date,2012-07-19,1
+listed_date,2016-10-11,1
+listed_date,2015-10-26,1
+listed_date,2015-12-13,1
+listed_date,2016-11-20,1
+listed_date,2016-07-02,1
+listed_date,2016-04-03,1
+listed_date,2013-12-13,1
+listed_date,2016-12-07,1
+listed_date,2016-08-25,1
+listed_date,2016-04-25,1
+listed_date,2015-10-04,1
+listed_date,2015-10-16,1
+listed_date,2017-02-21,1
+listed_date,2014-08-18,1

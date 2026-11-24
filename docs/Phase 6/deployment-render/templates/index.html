@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIDA Pricer — Tiimi 2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+<!-- ═══ HEADER ═══════════════════════════════════════════════════════════════ -->
+<header>
+  <div class="header-inner">
+    <div class="logo">
+      <div class="logo-mark">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+          <rect width="28" height="28" rx="7" fill="url(#lg1)"/>
+          <path d="M6 18l4-8 4 5 3-3 5 6" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          <defs>
+            <linearGradient id="lg1" x1="0" y1="0" x2="28" y2="28">
+              <stop offset="0%" stop-color="#e85d2f"/>
+              <stop offset="100%" stop-color="#c44020"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <span class="logo-name">AIDA Pricer</span>
+        <span class="logo-team">Tiimi 2</span>
+      </div>
+    </div>
+    <div class="header-meta">
+      <span class="badge-phase">Phase 6</span>
+      <span class="badge-model">CatBoost · R²=0.91</span>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ HERO ══════════════════════════════════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <h1>Käytetyn auton<br/><em>arvioitu pyyntihinta</em></h1>
+      <p>CatBoost-malli opetettu 2,6 miljoonan USA:n käytetyn auton datalla.
+         Syötä auton tiedot — saat hetkessä realistisen myyntihinnan.</p>
+    </div>
+    <div class="hero-stats">
+      <div class="hstat">
+        <span class="hstat-v">2.6M</span>
+        <span class="hstat-l">Oppimisaineisto</span>
+      </div>
+      <div class="hstat-div"></div>
+      <div class="hstat">
+        <span class="hstat-v">96%</span>
+        <span class="hstat-l">Selitysaste R²</span>
+      </div>
+      <div class="hstat-div"></div>
+      <div class="hstat">
+        <span class="hstat-v">$2 136</span>
+        <span class="hstat-l">Keskim. virhe MAE</span>
+      </div>
+      <div class="hstat-div"></div>
+      <div class="hstat">
+        <span class="hstat-v">2 217</span>
+        <span class="hstat-l">Piirikuntaa</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ MAIN ══════════════════════════════════════════════════════════════════ -->
+<main>
+
+  <!-- ── FORM COLUMN ──────────────────────────────────────────────────────── -->
+  <div class="form-col">
+
+    <!-- BLOCK 1: Merkki & Malli -->
+    <div class="block">
+      <div class="block-label">
+        <span class="block-num">01</span> Merkki &amp; malli
+      </div>
+      <div class="form-grid two">
+        <div class="fg">
+          <label for="make">Merkki *</label>
+          <select id="make" name="make_name" required>
+            <option value="">Ladataan…</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label for="model">Malli *</label>
+          <select id="model" name="model_name" required disabled>
+            <option value="">— Valitse ensin merkki —</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- BLOCK 2: Perustiedot -->
+    <div class="block">
+      <div class="block-label">
+        <span class="block-num">02</span> Perustiedot
+      </div>
+      <div class="form-grid two">
+        <div class="fg">
+          <label for="year">Vuosimalli *</label>
+          <input type="number" id="year" name="year" min="1990" max="2025" value="2019" required />
+        </div>
+        <div class="fg">
+          <label for="mileage">Mailia *</label>
+          <input type="number" id="mileage" name="mileage" min="0" max="500000" value="45000" required />
+        </div>
+        <div class="fg">
+          <label for="horsepower">Hevosvoimat (hp)</label>
+          <input type="number" id="horsepower" name="horsepower" min="50" max="2000" value="200" />
+        </div>
+        <div class="fg">
+          <label for="engine_displacement">Moottorin tilavuus (l)</label>
+          <input type="number" id="engine_displacement" name="engine_displacement"
+                 min="0.5" max="10" step="0.1" value="2.0" />
+        </div>
+      </div>
+    </div>
+
+    <!-- BLOCK 3: Tekniset tiedot -->
+    <div class="block">
+      <div class="block-label">
+        <span class="block-num">03</span> Tekniset tiedot
+      </div>
+      <div class="form-grid three">
+        <div class="fg">
+          <label for="body_type">Korimuoto</label>
+          <select id="body_type" name="body_type">
+            <option value="Sedan">Sedan</option>
+            <option value="SUV / Crossover" selected>SUV / Crossover</option>
+            <option value="Pickup Truck">Pickup Truck</option>
+            <option value="Hatchback">Hatchback</option>
+            <option value="Coupe">Coupe</option>
+            <option value="Convertible">Convertible</option>
+            <option value="Minivan">Minivan</option>
+            <option value="Van">Van</option>
+            <option value="Wagon">Wagon</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label for="fuel_type">Käyttövoima</label>
+          <select id="fuel_type" name="fuel_type">
+            <option value="Gasoline" selected>Gasoline</option>
+            <option value="Hybrid">Hybrid</option>
+            <option value="Plug-In Hybrid">Plug-In Hybrid</option>
+            <option value="Electric">Electric</option>
+            <option value="Diesel">Diesel</option>
+            <option value="Flex Fuel Vehicle">Flex Fuel Vehicle</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label for="wheel_system">Vetotapa</label>
+          <select id="wheel_system" name="wheel_system">
+            <option value="FWD" selected>FWD</option>
+            <option value="AWD">AWD</option>
+            <option value="RWD">RWD</option>
+            <option value="4WD">4WD</option>
+            <option value="4X4">4X4</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label for="engine_type">Moottorin tyyppi</label>
+          <select id="engine_type" name="engine_type">
+            <option value="I4" selected>I4</option>
+            <option value="V6">V6</option>
+            <option value="V8">V8</option>
+            <option value="I4 Hybrid">I4 Hybrid</option>
+            <option value="H4">H4</option>
+            <option value="I6">I6</option>
+            <option value="V6 Flex Fuel Vehicle">V6 Flex Fuel</option>
+            <option value="V8 Flex Fuel Vehicle">V8 Flex Fuel</option>
+            <option value="I3">I3</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label for="transmission_display">Vaihteisto</label>
+          <select id="transmission_display" name="transmission_display">
+            <option value="Automatic" selected>Automatic</option>
+            <option value="Manual">Manual</option>
+            <option value="CVT">CVT</option>
+            <option value="Electric">Electric (EV)</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label for="listed_date">Listauksen pvm</label>
+          <input type="date" id="listed_date" name="listed_date" />
+        </div>
+      </div>
+    </div>
+
+    <!-- BLOCK 4: Sijainti -->
+    <div class="block">
+      <div class="block-label">
+        <span class="block-num">04</span> Myyntisijainti (USA)
+      </div>
+      <div class="form-grid two">
+        <div class="fg">
+          <label for="state_select">Osavaltio</label>
+          <select id="state_select">
+            <option value="">Ladataan…</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label for="county_select">Piirikunta</label>
+          <select id="county_select" disabled>
+            <option value="">— Valitse ensin osavaltio —</option>
+          </select>
+          <input type="hidden" id="geoid" name="geoid" />
+        </div>
+      </div>
+    </div>
+
+    <!-- BLOCK 5: Varusteet -->
+    <div class="block">
+      <div class="block-label">
+        <span class="block-num">05</span> Varusteet
+      </div>
+
+      <!-- Tärkeät varusteet (importance > 0.08) -->
+      <div class="opts-group-label">Merkittävimmät varusteet</div>
+      <div class="chips" id="chips-primary">
+        <button type="button" class="chip" data-opt="opt_navigation">Navigointi</button>
+        <button type="button" class="chip" data-opt="opt_sunroof">Aurinko­katto</button>
+        <button type="button" class="chip" data-opt="opt_leather_seats">Nahka­penkit</button>
+        <button type="button" class="chip" data-opt="opt_heated_seats">Lämmitettävät penkit</button>
+        <button type="button" class="chip" data-opt="opt_adaptive_cruise">Adaptiivinen vakionopeudensäädin</button>
+        <button type="button" class="chip" data-opt="opt_blind_spot">Kuolleen kulman valvonta</button>
+        <button type="button" class="chip" data-opt="opt_remote_start">Kaukokäynnistys</button>
+        <button type="button" class="chip" data-opt="opt_android_auto">Android Auto</button>
+        <button type="button" class="chip" data-opt="opt_backup_camera">Peruutus­kamera</button>
+        <button type="button" class="chip" data-opt="opt_alloy_wheels">Alusvanteet</button>
+        <button type="button" class="chip" data-opt="opt_bluetooth">Bluetooth</button>
+      </div>
+
+      <!-- Lisävarusteet (collapsible) -->
+      <details class="opts-extra">
+        <summary>Lisävarusteet <span class="opts-extra-count" id="extraCount"></span></summary>
+        <div class="chips" id="chips-secondary">
+          <button type="button" class="chip" data-opt="opt_carplay">Apple CarPlay</button>
+          <button type="button" class="chip" data-opt="opt_parking_sensors">Pysäköintitutkat</button>
+          <button type="button" class="chip" data-opt="opt_premium_audio">Premium-ääni­järjestelmä</button>
+          <button type="button" class="chip" data-opt="opt_third_row">Kolmas istuma­rivi</button>
+          <button type="button" class="chip" data-opt="opt_multi_zone">Multi-zone ilmastointi</button>
+          <button type="button" class="chip" data-opt="opt_lane_departure">Kaistavahdinta</button>
+          <button type="button" class="chip" data-opt="opt_cross_traffic">Riskiliikenteen hälytys</button>
+          <button type="button" class="chip" data-opt="opt_tow_package">Hinaus­paketti</button>
+          <button type="button" class="chip" data-opt="opt_off_road">Off-road -paketti</button>
+          <button type="button" class="chip" data-opt="opt_cold_weather">Kylmä­paketti</button>
+          <button type="button" class="chip" data-opt="opt_heat_package">Lämpö­paketti</button>
+        </div>
+      </details>
+    </div>
+
+    <!-- BENSAHINTA INFO -->
+    <div class="gas-row">
+      <span class="gas-icon">⛽</span>
+      <span class="gas-text">Bensahinta (EIA, USA avg): </span>
+      <span class="gas-value" id="gasPriceDisplay">ladataan…</span>
+      <span class="gas-unit">$/gallon</span>
+    </div>
+
+    <!-- SUBMIT -->
+    <div id="formError" class="alert alert-error hidden"></div>
+    <button type="button" id="submitBtn" class="btn-predict" onclick="doPredict()">
+      Laske pyyntihinta
+    </button>
+
+  </div><!-- /form-col -->
+
+  <!-- ── RESULT COLUMN ─────────────────────────────────────────────────────── -->
+  <div class="result-col">
+    <div class="result-panel" id="resultPanel">
+
+      <!-- Tyhjä tila -->
+      <div id="emptyState" class="result-empty">
+        <div class="empty-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="23" stroke="var(--border2)" stroke-width="1.5"/>
+            <path d="M14 30l4-8 5 6 4-4 7 6" stroke="var(--muted)" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="24" cy="16" r="2" fill="var(--muted)" opacity=".4"/>
+          </svg>
+        </div>
+        <p>Täytä lomake ja paina<br/><strong>Laske pyyntihinta</strong></p>
+      </div>
+
+      <!-- Lataus -->
+      <div id="loadingState" class="result-loading hidden">
+        <div class="loader"></div>
+        <span>Analysoidaan…</span>
+      </div>
+
+      <!-- Virhe -->
+      <div id="errorState" class="hidden">
+        <div class="alert alert-error" id="errorMsg"></div>
+      </div>
+
+      <!-- Tulos -->
+      <div id="resultState" class="hidden">
+        <div class="price-card">
+          <div class="price-label">Arvioitu pyyntihinta</div>
+          <div class="price-value" id="priceValue">—</div>
+          <div class="price-range">
+            Vaihteluväli: <span id="priceLow">—</span> – <span id="priceHigh">—</span>
+          </div>
+        </div>
+
+        <div class="accuracy-row">
+          <span class="acc-label">Mallin tarkkuus (R²)</span>
+          <div class="acc-bar-wrap">
+            <div class="acc-bar-track">
+              <div class="acc-bar-fill" style="width:91%"></div>
+            </div>
+            <span class="acc-pct">91%</span>
+          </div>
+        </div>
+
+        <div class="metrics" id="metricsList"></div>
+
+        <div class="result-note">
+          MAE ±$2 495 · 89% ennusteista $5 000 tarkkuudella<br/>
+          <span class="note-warn">Yli $75 000 autoilla tarkkuus heikkenee.</span>
+        </div>
+      </div>
+
+    </div><!-- /result-panel -->
+  </div><!-- /result-col -->
+
+</main>
+
+<!-- ═══ INFO CARDS ═══════════════════════════════════════════════════════════ -->
+ <!--
+<section class="info-section">
+  <div class="info-card">
+    <div class="info-icon">📊</div>
+    <h3>Hintamalli</h3>
+    <p>CatBoost-regressio. Tärkein tekijä on auton merkki &amp; malli — ne selittävät yli 28% hinnasta. Kilometrit, ikä ja hevosvoimat täydentävät.</p>
+  </div>
+  <div class="info-card">
+    <div class="info-icon">📍</div>
+    <h3>Aluekohtaisuus</h3>
+    <p>Malli tunnistaa piirikuntien hintatason 2 217 eri alueelta. Myyntipaikka vaikuttaa erityisesti premium-autojen hinnoitteluun.</p>
+  </div>
+  <div class="info-card">
+    <div class="info-icon">⛽</div>
+    <h3>Makrotalous</h3>
+    <p>Bensahinta on myynnissäoloaikamallin tärkein tekijä. Korkea bensahinta pidentää isompien ajoneuvojen myyntiaikaa.</p>
+  </div>
+  <div class="info-card">
+    <div class="info-icon">⚠️</div>
+    <h3>Rajoitteet</h3>
+    <p>Malli on opetettu v. 2020 datalla. Yli $75 000 autoilla epävarmuus kasvaa merkittävästi. Käytä ennustetta suuntaa-antavana.</p>
+  </div>
+</section>
+-->
+<!-- ═══ FOOTER ════════════════════════════════════════════════════════════════ -->
+<footer>
+  <span>AIDA Pricer · Tiimi 2 · Phase 6 Deployment</span>
+  <span class="footer-sep">·</span>
+  <span>CatBoost · MAE $2 495 · R² 0.91</span>
+</footer>
+
+<!-- ═══ JAVASCRIPT ════════════════════════════════════════════════════════════ -->
+<script>
+// ── Tila ────────────────────────────────────────────────────────────────────
+const selectedOpts = new Set();
+
+// ── Chip toggle ──────────────────────────────────────────────────────────────
+document.querySelectorAll(".chip").forEach(chip => {
+  chip.addEventListener("click", () => {
+    const opt = chip.dataset.opt;
+    const isSecondary = chip.closest("#chips-secondary") !== null;
+    if (selectedOpts.has(opt)) {
+      selectedOpts.delete(opt);
+      chip.classList.remove("active");
+    } else {
+      selectedOpts.add(opt);
+      chip.classList.add("active");
+    }
+    if (isSecondary) updateExtraCount();
+  });
+});
+
+function updateExtraCount() {
+  const sec = document.querySelectorAll("#chips-secondary .chip.active").length;
+  const el = document.getElementById("extraCount");
+  el.textContent = sec > 0 ? `(${sec} valittu)` : "";
+}
+
+// ── Oletuspäivämäärä ─────────────────────────────────────────────────────────
+document.getElementById("listed_date").value = new Date().toISOString().split("T")[0];
+
+// ── Lataa merkit ─────────────────────────────────────────────────────────────
+async function loadMakes() {
+  try {
+    const res   = await fetch("/api/makes");
+    const makes = await res.json();
+    const sel   = document.getElementById("make");
+    sel.innerHTML = '<option value="">Valitse merkki…</option>';
+    makes.forEach(m => {
+      const o = document.createElement("option");
+      o.value = m; o.textContent = m;
+      sel.appendChild(o);
+    });
+  } catch(e) { console.warn("Makes load failed", e); }
+}
+
+// ── Merkki → lataa mallit ────────────────────────────────────────────────────
+document.getElementById("make").addEventListener("change", async function() {
+  const make    = this.value;
+  const modelSel = document.getElementById("model");
+  modelSel.innerHTML = '<option value="">Ladataan…</option>';
+  modelSel.disabled  = true;
+
+  if (!make) {
+    modelSel.innerHTML = '<option value="">— Valitse ensin merkki —</option>';
+    return;
+  }
+  try {
+    const res    = await fetch(`/api/models/${encodeURIComponent(make)}`);
+    const models = await res.json();
+    modelSel.innerHTML = '<option value="">Valitse malli…</option>';
+    models.forEach(m => {
+      const o = document.createElement("option");
+      o.value = m; o.textContent = m;
+      modelSel.appendChild(o);
+    });
+    modelSel.disabled = false;
+  } catch(e) {
+    modelSel.innerHTML = '<option value="">Virhe ladattaessa</option>';
+    modelSel.disabled = false;
+  }
+});
+
+// ── Lataa osavaltiot ─────────────────────────────────────────────────────────
+async function loadStates() {
+  try {
+    const res    = await fetch("/api/counties/states");
+    const states = await res.json();
+    const sel    = document.getElementById("state_select");
+    sel.innerHTML = '<option value="">Valitse osavaltio…</option>';
+    states.forEach(s => {
+      const o = document.createElement("option");
+      o.value = s.fips; o.textContent = s.name;
+      sel.appendChild(o);
+    });
+  } catch(e) { console.warn("States load failed", e); }
+}
+
+// ── Osavaltio → pirikunnat ───────────────────────────────────────────────────
+document.getElementById("state_select").addEventListener("change", async function() {
+  const fips      = this.value;
+  const countySel = document.getElementById("county_select");
+  const geoidInp  = document.getElementById("geoid");
+  countySel.innerHTML = '<option value="">Ladataan…</option>';
+  countySel.disabled  = true;
+  geoidInp.value      = "";
+
+  if (!fips) {
+    countySel.innerHTML = '<option value="">— Valitse ensin osavaltio —</option>';
+    return;
+  }
+  try {
+    const res      = await fetch(`/api/counties/${fips}`);
+    const counties = await res.json();
+    countySel.innerHTML = '<option value="">Valitse piirikunta…</option>';
+    counties.forEach(c => {
+      const o = document.createElement("option");
+      o.value = c.geoid; o.textContent = c.name + " County";
+      countySel.appendChild(o);
+    });
+    countySel.disabled = false;
+  } catch(e) {
+    countySel.innerHTML = '<option value="">Virhe ladattaessa</option>';
+    countySel.disabled = false;
+  }
+});
+
+document.getElementById("county_select").addEventListener("change", function() {
+  document.getElementById("geoid").value = this.value;
+});
+
+// ── Hae bensahinta ───────────────────────────────────────────────────────────
+async function loadGasPrice() {
+  try {
+    const res  = await fetch("/api/gas_price");
+    const data = await res.json();
+    document.getElementById("gasPriceDisplay").textContent = "$" + data.gas_price.toFixed(2);
+  } catch(e) {
+    document.getElementById("gasPriceDisplay").textContent = "—";
+  }
+}
+
+// ── Predict ──────────────────────────────────────────────────────────────────
+async function doPredict() {
+  // Reset UI
+  ["resultState","errorState"].forEach(id =>
+    document.getElementById(id).classList.add("hidden"));
+  document.getElementById("emptyState").classList.add("hidden");
+  document.getElementById("loadingState").classList.remove("hidden");
+  document.getElementById("submitBtn").disabled = true;
+  document.getElementById("formError").classList.add("hidden");
+
+  // Kerää lomakedata
+  const fields = [
+    "make_name","model_name","year","mileage","horsepower",
+    "engine_displacement","body_type","fuel_type","wheel_system",
+    "engine_type","transmission_display","listed_date","geoid",
+  ];
+  const payload = {};
+  fields.forEach(f => {
+    const el = document.querySelector(`[name="${f}"]`) || document.getElementById(f);
+    if (el) payload[f] = el.value;
+  });
+
+  // Malli-kenttä erikseen (select)
+  const modelSel = document.getElementById("model");
+  payload.model_name = modelSel.value;
+
+  // Optiot JSON-taulukona
+  payload.major_options = JSON.stringify([...selectedOpts]);
+
+  // Validointi
+  if (!payload.make_name || !payload.model_name) {
+    document.getElementById("loadingState").classList.add("hidden");
+    document.getElementById("submitBtn").disabled = false;
+    const err = document.getElementById("formError");
+    err.textContent = "Valitse vähintään merkki ja malli.";
+    err.classList.remove("hidden");
+    return;
+  }
+
+  try {
+    const res  = await fetch("/api/predict", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(payload),
+    });
+    const data = await res.json();
+    document.getElementById("loadingState").classList.add("hidden");
+    document.getElementById("submitBtn").disabled = false;
+
+    if (data.status === "error") {
+      document.getElementById("errorMsg").textContent = "Virhe: " + data.message;
+      document.getElementById("errorState").classList.remove("hidden");
+      return;
+    }
+
+    const fmt = n => "$" + Math.round(n).toLocaleString("en-US");
+    document.getElementById("priceValue").textContent  = fmt(data.predicted_price);
+    document.getElementById("priceLow").textContent    = fmt(data.confidence_low);
+    document.getElementById("priceHigh").textContent   = fmt(data.confidence_high);
+
+    const countySel = document.getElementById("county_select");
+    const stateSel  = document.getElementById("state_select");
+    const loc = countySel.value
+      ? (countySel.options[countySel.selectedIndex]?.text || "") + ", " +
+        (stateSel.options[stateSel.selectedIndex]?.text  || "")
+      : "Ei valittu";
+
+    const metrics = [
+      ["Merkki",          payload.make_name],
+      ["Malli",           payload.model_name],
+      ["Vuosimalli",      payload.year],
+      ["Kilometrit",      parseInt(payload.mileage || 0).toLocaleString("en-US") + " mi"],
+      ["Korimuoto",       payload.body_type],
+      ["Käyttövoima",     payload.fuel_type],
+      ["Myyntipaikka",    loc],
+      ["Varusteet",       selectedOpts.size > 0 ? selectedOpts.size + " kpl" : "—"],
+      ["Keskim. virhe",   fmt(data.mae)],
+    ];
+
+    document.getElementById("metricsList").innerHTML = metrics
+      .map(([l, v]) => `
+        <div class="metric">
+          <span class="metric-l">${l}</span>
+          <span class="metric-v">${v}</span>
+        </div>`)
+      .join("");
+
+    document.getElementById("resultState").classList.remove("hidden");
+
+  } catch(err) {
+    document.getElementById("loadingState").classList.add("hidden");
+    document.getElementById("submitBtn").disabled = false;
+    document.getElementById("errorMsg").textContent = "Verkkovirhe: " + err.message;
+    document.getElementById("errorState").classList.remove("hidden");
+  }
+}
+
+// ── Init ─────────────────────────────────────────────────────────────────────
+loadMakes();
+loadStates();
+loadGasPrice();
+</script>
+</body>
+</html>

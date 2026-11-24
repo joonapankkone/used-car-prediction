@@ -1,0 +1,625 @@
+make_name,models
+AM General,"<ArrowStringArray>
+['Hummer', 'Humvee', 'M151A2']
+Length: 3, dtype: string"
+AMC,"<ArrowStringArray>
+['Rambler American',              'AMX',  'Rambler Classic',
+          'Javelin',       'Ambassador',          'Concord']
+Length: 6, dtype: string"
+Acura,"<ArrowStringArray>
+[             'MDX',              'RSX',              'TSX',
+              'RDX',              'TLX',               'TL',
+ 'MDX Hybrid Sport',              'ILX',               'RL',
+              'RLX', 'RLX Hybrid Sport',            'Vigor',
+           'Legend',       'ILX Hybrid',              'ZDX',
+               'CL',              'NSX',              'SLX',
+          'Integra']
+Length: 19, dtype: string"
+Alfa Romeo,"<ArrowStringArray>
+[             '4C',          'Giulia',         'Stelvio', '8C Competizione',
+             '164',          'Spider',       'Giulietta',            '1900',
+             'GTV']
+Length: 9, dtype: string"
+Allard,"<ArrowStringArray>
+['J2X']
+Length: 1, dtype: string"
+Ariel,"<ArrowStringArray>
+['Atom']
+Length: 1, dtype: string"
+Aston Martin,"<ArrowStringArray>
+[      'Rapide',          'DB7',          'DB9',   'V8 Vantage',
+     'Vanquish',          'DBS',      'Vantage',         'DB11',
+ 'V12 Vanquish',      'Lagonda',  'V12 Vantage',       'Virage',
+      'Volante']
+Length: 13, dtype: string"
+Audi,"<ArrowStringArray>
+[              'SQ5',                'R8',                'A4',
+                'Q5',                'A5',                'A3',
+                'S6',                'Q7',                'S4',
+                'A8',                'A6',              'RS 7',
+                'S3',                'Q3',                'S7',
+                'S5',                'A7',      'A5 Sportback',
+          'A4 Avant',               'TTS',                'TT',
+      'S5 Sportback',        'A4 Allroad',                'Q8',
+              'RS 3',                'S8',      'A3 Sportback',
+             'RS Q8',              'RS 5',              'RS 6',
+            'e-tron', 'A8 Hybrid Plug-In',        'A6 Allroad',
+ 'Q5 Hybrid Plug-in',             'TT RS',               'SQ7',
+               'SQ8',              'RS 4',    'RS 5 Sportback',
+          'S4 Avant',           'Allroad',         'Q5 Hybrid',
+         'Cabriolet',                'V8']
+Length: 44, dtype: string"
+Austin,"<ArrowStringArray>
+['Princess']
+Length: 1, dtype: string"
+Austin-Healey,"<ArrowStringArray>
+['Sprite', '3000']
+Length: 2, dtype: string"
+BMW,"<ArrowStringArray>
+[             '3 Series',              '4 Series',              '2 Series',
+                    'X5',              '5 Series',                  'X6 M',
+                    'X3',              '7 Series',                    'X4',
+                    'X1',              '6 Series',                    'X6',
+                    'i8',                    'M3',                    'M4',
+ '3 Series Gran Turismo', '5 Series Gran Turismo',                    'M5',
+ '6 Series Gran Turismo',              '1 Series',                  'X5 M',
+                    'M6',                  'X3 M',                    'X7',
+                    'M2',                  'X4 M',                    'X2',
+              '8 Series',                    'M8',                    'i3',
+                    'Z4',                    'Z3',                  'Z4 M',
+        'ActiveHybrid 7',                  'Z3 M',                    'Z8',
+        'ActiveHybrid 5',        'ActiveHybrid 3',                  '2002',
+                'Isetta',                    '1M',                '3.0CSi']
+Length: 42, dtype: string"
+Bentley,"<ArrowStringArray>
+[               'Bentayga',         'Continental GTC',
+          'Continental GT',                'Mulsanne',
+             'Flying Spur', 'Continental Flying Spur',
+ 'Continental Supersports',              'Brooklands',
+                 'Turbo R',         'Bentayga Hybrid',
+                  'Arnage',            'Brooklands R',
+                   'Azure',               '3.5 Litre',
+           'Continental R',                   'Eight',
+                      'S1',                      'S2']
+Length: 18, dtype: string"
+Bricklin,"<ArrowStringArray>
+['SV-1']
+Length: 1, dtype: string"
+Bugatti,"<ArrowStringArray>
+['Veyron']
+Length: 1, dtype: string"
+Buick,"<ArrowStringArray>
+[        'Lucerne',           'Regal',         'Enclave',          'Encore',
+          'Verano',        'LaCrosse',        'Envision',         'Cascada',
+       'Encore GX',         'Century',         'Special',         'LeSabre',
+      'Roadmaster',         'Riviera',          'Reatta',      'Rendezvous',
+     'Park Avenue',         'Electra',         'Rainier',         'Terraza',
+ 'Regal Sportback',     'Regal TourX',           'Super',      'Gran Sport',
+         'Skylark',        'Somerset',         'Wildcat']
+Length: 27, dtype: string"
+Cadillac,"<ArrowStringArray>
+[               'XT4',           'Escalade',                'SRX',
+                'XT5',       'Escalade ESV',                'ATS',
+                'CTS',              'CTS-V',                'XTS',
+                'XT6',                'DTS',                'CT4',
+                'CT5',                'CT6',           'Eldorado',
+                'STS',          'CTS Coupe',                'ELR',
+       'Escalade EXT',          'ATS Coupe',                'XLR',
+    'Escalade Hybrid',            'DeVille',              'ATS-V',
+           'Brougham',          'Fleetwood',        'ATS-V Coupe',
+        'CTS-V Coupe',    'CTS Sport Wagon',            'Allante',
+            'Seville',        'CTS-V Wagon',              'CT6-V',
+          'Series 62',          'Series 75',      'Sixty Special',
+          'Series 61', 'CT6 Hybrid Plug-In',             'Catera',
+              'XLR-V',            'LaSalle',              'STS-V']
+Length: 42, dtype: string"
+Chevrolet,"<ArrowStringArray>
+[          'Malibu',         'Traverse',          'Equinox',
+   'Silverado 1500',         'Suburban',           'Camaro',
+            'Cruze',             'Trax',         'Colorado',
+            'Tahoe',
+ ...
+      'Panel Truck',             '3200', 'Styleline Deluxe',
+        'Fleetline',           'Delray',    'Cameo Carrier',
+         'Standard',           'Sprint',           'Deluxe',
+            'Metro']
+Length: 110, dtype: string"
+Chrysler,"<ArrowStringArray>
+[            '200',        'Pacifica',  'Town & Country',      'New Yorker',
+             '300',      'PT Cruiser',         'Sebring',         'Voyager',
+ 'Pacifica Hybrid',       'Crossfire',        'Concorde',           'Aspen',
+        'Le Baron',            '300M',         'Newport',              'TC',
+ 'Crossfire SRT-6',         'Cordoba',         'Prowler',        'Imperial',
+          'Cirrus',             'LHS',        'Saratoga',        'Conquest',
+           'Royal',         'Windsor']
+Length: 26, dtype: string"
+Clenet,"<ArrowStringArray>
+['Series III Asha']
+Length: 1, dtype: string"
+Daewoo,"<ArrowStringArray>
+['Leganza', 'Lanos']
+Length: 2, dtype: string"
+Datsun,"<ArrowStringArray>
+['280ZX', '240Z', '280Z', '210', '2000', '510']
+Length: 6, dtype: string"
+DeLorean,"<ArrowStringArray>
+['DMC-12']
+Length: 1, dtype: string"
+DeSoto,"<ArrowStringArray>
+['Firedome']
+Length: 1, dtype: string"
+DeTomaso,"<ArrowStringArray>
+['Pantera']
+Length: 1, dtype: string"
+Dodge,"<ArrowStringArray>
+[           'Durango',            'Charger',         'Challenger',
+      'Grand Caravan',            'Journey',           'RAM 1500',
+              'Nitro',             'Magnum',            'Avenger',
+           'RAM 2500',            'Stratus',             'Dakota',
+           'RAM 3500',            'Caliber',               'Dart',
+            'RAM 150',              'Viper',   'RAM 3500 Chassis',
+            'Caravan',            'RAM Van',            'RAM 350',
+         'Ramcharger',               'Neon',            'Stealth',
+     'Sprinter Cargo',   'RAM 4500 Chassis',           'Diplomat',
+                '400',               'Omni',          'Super Bee',
+            'RAM 250',            'Coronet',             'Shadow',
+ 'Sprinter Passenger',                '600',           'Intrepid',
+          'RAM Wagon',             'Polara',            'Rampage',
+           'Wayfarer',         'Neon SRT-4',      'RAM 50 Pickup',
+              'Aries',               'Colt',             'Monaco',
+           'D-Series',        'Power Wagon',     'Durango Hybrid',
+             'Spirit',            'RAM 100',       'Luxury Liner']
+Length: 51, dtype: string"
+Eagle,"<ArrowStringArray>
+['Talon']
+Length: 1, dtype: string"
+Edsel,"<ArrowStringArray>
+['Ranger']
+Length: 1, dtype: string"
+FIAT,"<ArrowStringArray>
+['124 Spider', '500', '500X', '500L', '500e', '1100']
+Length: 6, dtype: string"
+Ferrari,"<ArrowStringArray>
+[           'F430',    'California T',      '458 Italia',          '250 GT',
+      'California',  'F12 Berlinetta',       'Portofino',   '812 Superfast',
+             '488',       'GTC4Lusso', '599 GTB Fiorano',     'GTC4Lusso T',
+              'FF',             '550',    '430 Scuderia',             '328',
+             '308',      '360 Spider',             '360',     'F430 Spider',
+    'Superamerica',         'Mondial',            '575M',  '612 Scaglietti',
+      'Testarossa',          'F12tdf',            'Enzo',           '512TR',
+            'F355',             '348',         '250 GTO',             '365',
+            '456M',            '400i',             '456',         '512 BBi',
+       '365 GTC/4',       'LaFerrari',        'Dino 246',       '365 GTB/4',
+      'F8 Tributo']
+Length: 41, dtype: string"
+Fisker,"<ArrowStringArray>
+['Karma']
+Length: 1, dtype: string"
+Ford,"<ArrowStringArray>
+[                'Explorer',         'F-350 Super Duty',
+                  'Mustang',                 'E-Series',
+          'Transit Connect',                    'F-150',
+                     'Edge',                   'Fiesta',
+                   'Escape',                   'Fusion',
+ ...
+                 'Aerostar',                'Crestline',
+                  'Model B',         'Econoline Pickup',
+                    'Pinto',                  'Courier',
+                  'Granada', 'Transit Connect Electric',
+           'Windstar Cargo',                   'Aspire']
+Length: 105, dtype: string"
+Franklin,"<ArrowStringArray>
+['AT']
+Length: 1, dtype: string"
+Freightliner,"<ArrowStringArray>
+['Sprinter']
+Length: 1, dtype: string"
+GMC,"<ArrowStringArray>
+[               'Canyon',          'Savana Cargo',              'Yukon XL',
+               'Terrain',                'Acadia',         'Sierra 3500HD',
+                 'Yukon',           'Sierra 1500',              'Suburban',
+         'Sierra 2500HD',                 'Envoy',                'Savana',
+              'Envoy XL',                'Sonoma',                'Safari',
+          'Safari Cargo',           'Sierra 3500', 'Sierra 2500HD Classic',
+          'Yukon Hybrid', 'Sierra 3500HD Chassis',   'Sierra 1500 Limited',
+   'Sierra Classic 1500',           'Sierra 2500',       'C/K 2500 Series',
+    'Sierra 1500 Hybrid',       'C/K 3500 Series',                 'Jimmy',
+             'Envoy XUV',         'Sierra 1500HD',       'C/K 1500 Series',
+               'Typhoon',               'Syclone',   'Sierra Classic 3500',
+             'Sierra C3',   'Sierra Classic 2500',             'Caballero',
+                'Sierra',       'R/V 1500 Series',       'Sierra C/K 1500',
+               'Vandura',            'S-15 Jimmy',       'C/K 1000 Series',
+                  'S-15',       'Sierra C/K 3500',       'R/V 3500 Series',
+       'R/V 2500 Series',                'Sprint',                   '100',
+           'Rally Wagon']
+Length: 49, dtype: string"
+Genesis,"<ArrowStringArray>
+['G80', 'G90', 'G70']
+Length: 3, dtype: string"
+Geo,"<ArrowStringArray>
+['Prizm', 'Metro', 'Tracker', 'Storm']
+Length: 4, dtype: string"
+Hillman,"<ArrowStringArray>
+['Minx']
+Length: 1, dtype: string"
+Honda,"<ArrowStringArray>
+[                 'Civic',                  'Pilot',                 'Accord',
+            'Civic Coupe',                'Odyssey',                   'HR-V',
+                   'CR-V',              'Ridgeline',                    'Fit',
+           'Accord Coupe',          'Accord Hybrid',                'Element',
+        'Civic Hatchback',                   'CR-Z',               'Passport',
+              'Crosstour', 'Clarity Hybrid Plug-In',       'Accord Crosstour',
+                'Insight',            'CR-V Hybrid',           'Civic Type R',
+           'Civic Hybrid',                  'S2000',                'Prelude',
+          'Civic del Sol',      'Clarity Fuel Cell',  'Accord Hybrid Plug-In',
+                    'NSX',              'Civic CRX']
+Length: 29, dtype: string"
+Hudson,"<ArrowStringArray>
+['Hornet', 'Terraplane']
+Length: 2, dtype: string"
+Humber,"<ArrowStringArray>
+['Super Snipe']
+Length: 1, dtype: string"
+Hummer,"<ArrowStringArray>
+['H3', 'H2', 'H3T', 'H2 SUT', 'H1', 'H1 Alpha']
+Length: 6, dtype: string"
+Hyundai,"<ArrowStringArray>
+[              'Elantra',              'Veloster',                'Tucson',
+                'Sonata',              'Santa Fe',        'Santa Fe Sport',
+            'Elantra GT',              'Palisade',         'Genesis Coupe',
+                  'Kona',       'Elantra Touring',        'Ioniq Electric',
+        'Veloster Turbo',                 'Azera',                'Accent',
+                 'Venue',         'Sonata Hybrid',          'Ioniq Hybrid',
+            'Veloster N',         'Kona Electric', 'Sonata Hybrid Plug-In',
+  'Ioniq Hybrid Plug-In',               'Genesis',           'Santa Fe XL',
+              'Veracruz',         'Elantra Coupe',               'Tiburon',
+             'Entourage',                 'Equus',                 'XG350',
+      'Tucson Fuel Cell',                  'Nexo']
+Length: 32, dtype: string"
+INFINITI,"<ArrowStringArray>
+[        'G35',         'Q70',         'Q60',        'EX35',        'QX50',
+         'G37',        'QX30',        'QX60',        'QX80',        'QX70',
+         'M37', 'QX60 Hybrid',         'Q50',        'Q70L',         'Q40',
+        'FX35',        'QX56',        'JX35',         'M35',  'Q50 Hybrid',
+        'FX37',         'G25',         'G20',         'QX4',         'I35',
+         'I30',         'M56',         'M30',         'Q45',        'M35h',
+        'FX50',       'IPL G',        'FX45',         'M45',         'J30',
+  'Q70 Hybrid',        'EX37']
+Length: 37, dtype: string"
+International Harvester,"<ArrowStringArray>
+['Travelall', 'Scout']
+Length: 2, dtype: string"
+Isuzu,"<ArrowStringArray>
+[    'Trooper',       'Rodeo',    'i-Series',    'Ascender',  'Trooper II',
+      'Pickup', 'Rodeo Sport',       'Axiom',       'Amigo',      'Hombre']
+Length: 10, dtype: string"
+Jaguar,"<ArrowStringArray>
+[       'E-PACE',        'F-PACE',        'S-TYPE',        'X-TYPE',
+     'XJ-Series',            'XF',            'XE',        'F-TYPE',
+     'XK-Series',        'I-PACE', 'XF Sportbrake',       'Mark IX',
+      'S-TYPE R',        'E-TYPE',        'Mark V']
+Length: 15, dtype: string"
+Jeep,"<ArrowStringArray>
+[          'Renegade',     'Grand Cherokee',            'Compass',
+ 'Wrangler Unlimited',           'Cherokee',            'Patriot',
+            'Liberty',          'Commander',           'Wrangler',
+          'Gladiator',               'CJ-5',     'Grand Wagoneer',
+               'CJ-7',           'Comanche',               'CJ-8',
+           'Commando',           'Wagoneer',               'J-20']
+Length: 18, dtype: string"
+Jensen,"<ArrowStringArray>
+['Interceptor']
+Length: 1, dtype: string"
+Kaiser,"<ArrowStringArray>
+['Manhattan', 'Darrin']
+Length: 2, dtype: string"
+Karma,"<ArrowStringArray>
+['Revero GT', 'Revero']
+Length: 2, dtype: string"
+Kia,"<ArrowStringArray>
+[               'Optima',               'Sorento',               'Soul EV',
+                 'Forte',              'Sportage',                'Sedona',
+                  'Soul',                  'Niro',                  'Rio5',
+               'Cadenza',                    'K5',                'Seltos',
+   'Niro Hybrid Plug-In',               'Stinger',               'Niro EV',
+                   'Rio',             'Telluride',                'Forte5',
+         'Optima Hybrid',            'Forte Koup', 'Optima Hybrid Plug-In',
+                'Amanti',               'Spectra',                 'Rondo',
+                'Sephia',                  'K900',               'Borrego']
+Length: 27, dtype: string"
+Koenigsegg,"<ArrowStringArray>
+['CCXR Trevita']
+Length: 1, dtype: string"
+Lamborghini,"<ArrowStringArray>
+[   'Huracan',       'Urus',  'Aventador',   'Gallardo', 'Murcielago',
+     'Diablo',   'Countach',      'Jalpa',     'Espada']
+Length: 9, dtype: string"
+Land Rover,"<ArrowStringArray>
+[           'Discovery Sport',                  'Discovery',
+          'Range Rover Velar',         'Range Rover Evoque',
+          'Range Rover Sport',         'Range Rover Hybrid',
+                   'Defender',                'Range Rover',
+                        'LR2',                        'LR4',
+                        'LR3', 'Range Rover Hybrid Plug-in',
+                 'Freelander',                 'Series III',
+        'Discovery Series II',                 'Series IIA']
+Length: 16, dtype: string"
+Lexus,"<ArrowStringArray>
+[   'RC 350',    'RX 350',    'IS 350',    'LS 460',    'GS 350',    'IS 250',
+    'ES 350',    'ES 300',    'LX 570', 'CT Hybrid',    'SC 430',    'RX 330',
+   'NX 200t',        'RX',        'GX',    'RX 300',   'RX 400h',        'IS',
+        'ES',    'LX 470',        'NX', 'RX Hybrid',    'LS 500',        'LC',
+    'GS 300',    'GX 470',   'ES 300h', 'NX Hybrid', 'ES Hybrid',        'LX',
+        'RC',   'HS 250h', 'UX Hybrid',    'ES 330',      'RC F',        'LS',
+ 'LS 600h L',    'RC 300',      'GS F',        'UX',        'GS', 'LC Hybrid',
+   'LS 500h',    'LS 430',    'LX 450',   'RC 200t',    'GS 460',       'LFA',
+ 'GS Hybrid',    'SC 400', 'LS Hybrid',    'SC 300',   'GS 200t',    'LS 400',
+    'GS 430',    'GS 400']
+Length: 56, dtype: string"
+Lincoln,"<ArrowStringArray>
+[  'Navigator',  'MKZ Hybrid',         'MKZ',         'MKC',         'MKX',
+         'MKS',         'MKT', 'Continental',      'Zephyr',     'Corsair',
+    'Nautilus',   'Mark VIII',     'Aviator',    'Town Car',    'Mark VII',
+     'Mark LT',     'Mark VI',          'LS',   'Blackwood',       'Capri',
+    'Premiere']
+Length: 21, dtype: string"
+Lotus,"<ArrowStringArray>
+['Elise', 'Evora', 'Elan', 'Exige', 'Esprit', 'Elite']
+Length: 6, dtype: string"
+MG,"<ArrowStringArray>
+['MGB', 'MGA', 'TD', 'TC', 'MGB Roadster', 'Midget', 'TF']
+Length: 7, dtype: string"
+MINI,"<ArrowStringArray>
+[                   'Cooper',            'Cooper Clubman',
+                'Countryman',            'Cooper Paceman',
+                  'Roadster',              'Cooper Coupe',
+ 'Countryman Hybrid Plug-in']
+Length: 7, dtype: string"
+Maserati,"<ArrowStringArray>
+[     'Levante',       'Ghibli',  'GranTurismo', 'Quattroporte',
+    'GranSport',        'Coupe',       'Spyder',       'Mexico',
+      'Sebring']
+Length: 9, dtype: string"
+Maybach,"<ArrowStringArray>
+['57']
+Length: 1, dtype: string"
+Mazda,"<ArrowStringArray>
+[               'MAZDA3',                  'CX-3',                  'CX-5',
+                'MAZDA6',                  'CX-9',                 'CX-30',
+                'MAZDA5',            'MX-5 Miata',                  'RX-8',
+                  'CX-7',                'MAZDA2',               'Tribute',
+               'Protege',           'MAZDASPEED3',                  'RX-7',
+                   'MPV',              'B-Series',           'MAZDASPEED6',
+                   '626',              'Protege5',        'Tribute Hybrid',
+              'Millenia', 'MAZDASPEED MX-5 Miata']
+Length: 23, dtype: string"
+McLaren,"<ArrowStringArray>
+[   '570S', 'MP4-12C',    '720S',   '570GT',   '600LT',    '650S',      'GT',
+   '675LT',      'P1',   'Senna']
+Length: 10, dtype: string"
+Mercedes-Benz,"<ArrowStringArray>
+[     'CLA-Class',      'GLC-Class',      'GLE-Class',        'C-Class',
+      'GLK-Class',        'E-Class',       'GL-Class',      'CLS-Class',
+       'Sprinter',        'M-Class',        'G-Class',      'GLA-Class',
+        'S-Class',  'S-Class Coupe',       'SL-Class',      'SLK-Class',
+        'R-Class',      'GLS-Class',         'Metris', 'Sprinter Cargo',
+         'AMG GT',        'A-Class',        'B-Class',      'SLC-Class',
+      'GLB-Class',   'Metris Cargo',    'SLR McLaren',       'CL-Class',
+      '190-Class',      'CLK-Class',            '250',      'SLS-Class',
+      '380-Class',      '500-Class',            '280',      '420-Class',
+      '560-Class',      '300-Class',      '450-Class',          '230SL',
+      '350-Class',           '230E',            '240',            '220',
+      '400-Class']
+Length: 45, dtype: string"
+Mercury,"<ArrowStringArray>
+[ 'Grand Marquis',          'Milan',          'Sable',        'Mariner',
+ 'Mariner Hybrid',    'Mountaineer',        'Montego',          'Capri',
+       'Monterey',       'Marauder',         'Cougar',   'Milan Hybrid',
+       'Villager',      'Montclair',          'Eight',        'Marquis',
+          'Comet',      'Park Lane',       'Mystique',         'Tracer',
+          'Topaz']
+Length: 21, dtype: string"
+Mitsubishi,"<ArrowStringArray>
+[                  'Mirage',            'Eclipse Cross',
+                  'Eclipse',                   'Lancer',
+                'Outlander',                   'Galant',
+                'Mirage G4',          'Outlander Sport',
+ 'Outlander Hybrid Plug-in',         'Lancer Evolution',
+                 'Endeavor',           'Eclipse Spyder',
+            'Montero Sport',        'Mighty Max Pickup',
+                   '3000GT',         'Lancer Sportback',
+                   'Raider',                  'Montero',
+                   'Pajero',                   'i-MiEV',
+                 'Diamante']
+Length: 21, dtype: string"
+Mobility Ventures,"<ArrowStringArray>
+['MV-1']
+Length: 1, dtype: string"
+Morris,"<ArrowStringArray>
+['Mini', 'Minor']
+Length: 2, dtype: string"
+Nash,"<ArrowStringArray>
+['Metropolitan']
+Length: 1, dtype: string"
+Nissan,"<ArrowStringArray>
+[                'Rogue',                'Maxima',            'Pathfinder',
+                'Altima',           'Rogue Sport',                 'Titan',
+                'Murano',                'Xterra',          'Rogue Select',
+                'Armada',                  '350Z',                'Sentra',
+         'Altima Hybrid',                 'Versa',                  'Cube',
+            'Versa Note',                 'NV200',              'Frontier',
+                  'LEAF',                  'Juke',              'NV Cargo',
+          'Altima Coupe',                 'Quest',                 'Kicks',
+ 'Murano CrossCabriolet',                  '370Z',          'NV Passenger',
+                  'GT-R',     'Pathfinder Hybrid',          'Rogue Hybrid',
+                 '300ZX',                'Silvia',                 'Truck',
+                    'NX',                'Patrol',         'Murano Hybrid',
+               'Skyline',                 '200SX',                'Cedric',
+                 '240SX']
+Length: 40, dtype: string"
+Oldsmobile,"<ArrowStringArray>
+[           'Toronado',            'Delta 88',               'Alero',
+      'Custom Cruiser',                 '442',          'Silhouette',
+             'Bravada',              'Aurora',             'Regency',
+     'Cutlass Supreme',          'Jetstar 88',        'Ninety-Eight',
+       'Vista Cruiser',      'Cutlass Calais',        'Eighty-Eight',
+ 'Eighty-Eight Royale',             'Cutlass',                  '88',
+             'Achieva',            'Intrigue',       'Cutlass Ciera',
+            'Starfire',            'Super 88',          'Dynamic 88',
+               'Ciera',                 'LSS',               'Omega']
+Length: 27, dtype: string"
+Opel,"<ArrowStringArray>
+['Kadett', 'GT']
+Length: 2, dtype: string"
+Packard,"<ArrowStringArray>
+['Super Eight', '110', 'Caribbean', '120', 'Clipper']
+Length: 5, dtype: string"
+Pagani,"<ArrowStringArray>
+['Huayra']
+Length: 1, dtype: string"
+Pininfarina,"<ArrowStringArray>
+['Azzurra']
+Length: 1, dtype: string"
+Plymouth,"<ArrowStringArray>
+[    'Barracuda',       'Prowler',          'Neon',       'Valiant',
+     'Satellite',       'Voyager',     'Superbird',         'Plaza',
+          'Fury',           'GTX', 'Grand Voyager',        'Deluxe',
+   'Road Runner',     'Belvedere',        'Duster',         'Laser',
+        'Breeze',       'Acclaim',         'Scamp',         'Champ',
+       'Concord',           'P10',         'Savoy',     'Cambridge']
+Length: 24, dtype: string"
+Pontiac,"<ArrowStringArray>
+[         'G8',        'Vibe',  'Grand Prix',          'G6',     'Sunfire',
+         'GTO',    'Firebird',    'Grand Am',     'Torrent',       'Aztek',
+       'Fiero',          'G5',  'Bonneville', 'Grand Ville',    'Solstice',
+ 'Montana SV6',     'Montana',      'Deluxe',     'Ventura',      'Can Am',
+   'Chieftain',          'G3',    'Catalina',     'Le Mans', 'Trans Sport',
+ 'Streamliner',  'Star Chief',     'Sunbird',     'Tempest']
+Length: 29, dtype: string"
+Porsche,"<ArrowStringArray>
+[          'Cayenne',   'Panamera Hybrid',          'Panamera',
+             'Macan',  'Cayenne E-Hybrid',        '718 Cayman',
+               '911',               '944',           'Boxster',
+       '718 Boxster',               '912', 'Panamera E-Hybrid',
+            'Taycan',            'Cayman',               '356',
+        'Carrera GT',    'Cayenne Hybrid',               '928',
+               '924',               '914',        '918 Spyder',
+               '968',               '959',        '550 Spyder']
+Length: 24, dtype: string"
+RAM,"<ArrowStringArray>
+[             '1500',              '2500',         'ProMaster',
+    'ProMaster City',              '3500',      '5500 Chassis',
+      '3500 Chassis',               'C/V',      '4500 Chassis',
+            'Dakota', 'ProMaster Chassis']
+Length: 11, dtype: string"
+Rolls-Royce,"<ArrowStringArray>
+[                 'Ghost',                   'Dawn', 'Phantom Drophead Coupe',
+                'Phantom',                 'Wraith',               'Cullinan',
+            'Silver Spur',          'Silver Seraph',               'Corniche',
+           'Silver Cloud',       'Silver Shadow II',              'Park Ward',
+             'Phantom VI',          'Silver Spirit',          'Phantom Coupe',
+            'Silver Dawn',          'Silver Shadow']
+Length: 17, dtype: string"
+Rover,"<ArrowStringArray>
+['Mini']
+Length: 1, dtype: string"
+SRT,"<ArrowStringArray>
+['Viper']
+Length: 1, dtype: string"
+Saab,"<ArrowStringArray>
+[           '9-5',            '9-3', '9-3 SportCombi',           '9-7X',
+            '900',           '9-4X',           '9-2X', '9-5 SportCombi',
+             '95']
+Length: 9, dtype: string"
+Saleen,"<ArrowStringArray>
+['S7 Twin Turbo']
+Length: 1, dtype: string"
+Saturn,"<ArrowStringArray>
+[                   'ION',                'Outlook',                    'VUE',
+                   'Aura',               'S-Series',                    'Sky',
+                  'Astra',               'L-Series',             'VUE Hybrid',
+                   'L300',                  'Relay', 'Aura Hybrid Green Line',
+           'ION Red Line']
+Length: 13, dtype: string"
+Scion,"<ArrowStringArray>
+['xA', 'tC', 'xD', 'iA', 'xB', 'iQ', 'FR-S', 'iM']
+Length: 8, dtype: string"
+Shelby,"<ArrowStringArray>
+['Cobra', 'Series 1']
+Length: 2, dtype: string"
+Spyker,"<ArrowStringArray>
+['C8']
+Length: 1, dtype: string"
+Studebaker,"<ArrowStringArray>
+['Commander', 'Dictator', 'Hawk', 'Lark', 'Champ', 'Champion']
+Length: 6, dtype: string"
+Subaru,"<ArrowStringArray>
+[            'WRX STI',             'Impreza',             'Outback',
+                 'WRX',        'XV Crosstrek',            'Forester',
+           'Crosstrek',              'Legacy',                 'BRZ',
+         'Impreza WRX',     'Impreza WRX STI',              'Ascent',
+    'Crosstrek Hybrid',          'B9 Tribeca',             'Tribeca',
+                'Baja', 'XV Crosstrek Hybrid',                 'SVX']
+Length: 18, dtype: string"
+Sunbeam,"<ArrowStringArray>
+['Tiger', 'Alpine']
+Length: 2, dtype: string"
+Suzuki,"<ArrowStringArray>
+[         'SX4', 'Grand Vitara',        'Aerio',         'XL-7',
+      'Equator',      'Forenza',      'Kizashi',       'Vitara',
+         'Reno',       'Esteem',     'Sidekick',       'Verona',
+      'Samurai']
+Length: 13, dtype: string"
+Tesla,"<ArrowStringArray>
+['Model S', 'Model X', 'Model 3', 'Roadster', 'Model Y']
+Length: 5, dtype: string"
+Toyota,"<ArrowStringArray>
+[            'Prius',            'Tacoma',             'Camry',
+              'RAV4',       'Prius Prime', 'Highlander Hybrid',
+           'Prius v',             'Yaris',           'Corolla',
+           '4Runner',            'Sienna',        'Highlander',
+           'Sequoia',        'FJ Cruiser',            'Matrix',
+            'Avalon',            'Tundra',       'RAV4 Hybrid',
+    'Corolla Hybrid',      'Camry Hybrid',              'C-HR',
+           'Prius c',     'Avalon Hybrid',                '86',
+ 'Corolla Hatchback',        'Corolla iM',      'Camry Solara',
+             'Venza',          'Yaris iA',             'Supra',
+      'Land Cruiser',              'ECHO',            'Celica',
+        'RAV4 Prime',     'Prius Plug-In',        'MR2 Spyder',
+            'Pickup',               'MR2',          'Cressida',
+              'T100',             'Mirai',            'Previa',
+             'Paseo',            'Tercel',            'Corona',
+             'Hiace',             'Crown']
+Length: 47, dtype: string"
+Triumph,"<ArrowStringArray>
+['TR6', 'Spitfire', 'TR4A', 'TR7', 'TR3A', 'TR3', 'Stag', 'TR8']
+Length: 8, dtype: string"
+VPG,"<ArrowStringArray>
+['MV-1']
+Length: 1, dtype: string"
+Volkswagen,"<ArrowStringArray>
+[           'Tiguan',               'GTI',            'Passat',
+              'Golf',             'Jetta',            'Arteon',
+            'Routan',   'Golf SportWagen',  'Jetta SportWagen',
+     'Golf Alltrack',             'Atlas',            'Golf R',
+                'CC',            'Beetle',      'Jetta Hybrid',
+         'Jetta GLI',           'Touareg', 'Atlas Cross Sport',
+            'e-Golf',            'Cabrio',            'Rabbit',
+               'R32',               'Eos',         'Touareg 2',
+      'Super Beetle',    'Touareg Hybrid',           'Phaeton',
+           'EuroVan',               'GLI',      'Karmann Ghia',
+           'Vanagon',         'Cabriolet',            'Type 2',
+             'Thing',            'Type 3']
+Length: 35, dtype: string"
+Volvo,"<ArrowStringArray>
+[  'S80',  'XC70',   'V60',   'C70',  'XC90',   'S40',   'S60',  'XC60',
+   'V90',  'XC40',   'S90',    'XC',   'V50',   'C30',   'V70',   '240',
+   '960',   'S70', 'P1800',   'V40',   '940', 'S60 R', 'V70 R',   '850',
+   '740']
+Length: 25, dtype: string"
+Willys,"<ArrowStringArray>
+['Coupe', 'Jeepster', 'Jeep Wagon', 'Pickup', 'M38A1']
+Length: 5, dtype: string"
+smart,"<ArrowStringArray>
+['fortwo', 'fortwo electric drive']
+Length: 2, dtype: string"

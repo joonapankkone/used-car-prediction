@@ -1,0 +1,68 @@
+Sarakeotsikko;datatyyppi;Rivi 1;Kuvaus;tuomio;k‰sittely;tyhji‰;mukaan
+vin;str;ZACNJABB5KPJ92081;Auton tunniste, uniikki string;pois;vai onko tarvetta;0 %;
+back_legroom;str;35.1 in;Takapenkin jalkatila;pois;;5 %;
+bed;float64;;Pickupin lavatila;pois;Jos t‰m‰ null - ei pickup. Olisiko k‰yttˆ‰?;99 %;
+bed_height;float64;;Pickupin lavan korkeus;pois;;86 %;
+bed_length;float64;;Pickupin lavan pituus;pois;;86 %;
+body_type;str;SUV / Crossover;Korityyppi;mukaan;labeloitava nroksi, (1 milj otannalla) 9 uniikkia;0 %;1
+cabin;float64;;Pickupin matkustamotyyppi;pois;;98 %;
+city;str;Bayamon;Miss‰ kaupungissa listattu;pois;Eli miss‰ myynniss‰? Nroksi, 3216 uniikkia;0 %;
+city_fuel_economy;float64;;Kaupunkikikulutus;pois;Kategorisoitava?;16 %;
+combine_fuel_economy;float64;;Yhdistetty kulutus;Pois;;100 %;
+daysonmarket;int64;522;Kauan myynniss‰ meni;target;int32;0 %;1
+dealer_zip;int64;960;Myyj‰n postikoodi;pois;;;
+description;str;[!@@Additional Info@@!]Engine: 2.4L I4 ZERO EVAP M-AIR,Full Size Temporary Use Spare Tire,Manufacturer's Statement of Origin,Quick Order Package 2XB,Tires: 215/60R17 BSW AS Touring,Transmission: 9-Speed 948TE Automatic,Wheels: 17' x 7.0' Aluminum;Auton kuvaus ilmoituksessa;pois;;3 %;
+engine_cylinders;str;I4;Sylinterit;pois;labeloitava nroksi, t‰ytyy kattoa kuinka paljon on erilaisia;3 %;
+engine_displacement;float64;1300.0;Iskutilavuus;mukaan(?);float32;6 %;1
+engine_type;str;I4;Moottorityyppi;mukaan;labeloitava nroksi, 36 uniikkia;3 %;1
+exterior_color;str;Solar Yellow;V‰ri;pois(?);labeloitava nroksi, t‰ytyy kattoa kuinka paljon on erilaisia;0 %;0
+fleet;object;;Aiempi omistustyyppi(?), onko ollut yrityksen omistuksessa;pois;Niin paljon tyhji‰ ett‰ pois?;48 %;
+frame_damaged;object;;Runkovaurio;pois;Niin paljon tyhji‰ ett‰ pois?;48 %;
+franchise_dealer;bool;True;Onko j‰lleenmyyj‰ franchise eli merkkiliike? ;pois;;0 %;
+franchise_make;str;Jeep;Mink‰ merkin liike (ehk‰);pois;Niin paljon tyhji‰ ett‰ pois?;19 %;0
+front_legroom;str;41.2 in;Jalkatila edess‰;pois;;5 %;
+fuel_tank_volume;str;12.7 gal;Polttoainetankin koko;pois;;5 %;
+fuel_type;str;Gasoline;Polttoainetyyppi, oleellinen? Melkein 90% gasoline. Olisiko niin ett‰ t‰ll‰ tulisi alueellisia eroja?;mukaan(?);labelointi, 8 uniikkia;3 %;1
+has_accidents;object;;Kolaroitu;pois;;48 %;
+height;str;66.5 in;Auton korkeus;pois;;5 %;
+highway_fuel_economy;float64;;Maantiekulutus ;pois;Kategorisoitava?;16 %;
+horsepower;float64;177.0;Hevosvoimat;mukaan;float32;6 %;1
+interior_color;str;Black;Sisustan v‰ri;pois;;0% (unknown 13%);
+isCab;object;;Aiemmin taksi;pois;;48 %;
+is_certified;float64;;Sertifioitu;pois;;100 %;
+is_cpo;float64;;Myyj‰n takuu k‰ytetylle autolle?;pois;;94 %;
+is_new;bool;True;Alle 2 v vanha oli m‰‰ritelm‰ aineiston sivulla;pois;saako tarkemmin year sarakkeesta?;0 %;
+is_oemcpo;float64;;K‰ytetyt valmistajan takuulla?;pois;;95 %;
+latitude;;18.3988;Myyj‰n leveysaste;mukaan;t‰ytyy kysy‰ kielimallilta miten kannattaa yhdist‰‰ paikan saamiseksi ja jotenkin teht‰v‰ j‰rkev‰ alue (100 km halkaisija, tai jotenkin muuten) joka katsotaan samaksi alueeksi. 11 211 uniikkia.;0 %;1
+length;str;166.6 in;Auton pituus;pois;;5 %;
+listed_date;str;2019-04-06;Milloin tullut myyntiin;pois?;;0 %;
+listing_color;str;YELLOW;V‰ri;pois;labeloitava nroksi, t‰ytyy kattoa kuinka paljon on erilaisia;0 %;0
+listing_id;sr;237132766;Myynti-id;pois;;0 %;
+longitude;float64;-66.1582;pituuspiiri;mukaan;kts latitude. 11 617 uniikkia.;0 %;1
+main_picture_url;str;https://static.cargurus.com/images/forsale/2020/05/18/18/53/2019_jeep_renegade-pic-3296019950109819645-152x114.jpeg;linkki kuvaan;pois;merkitt‰v‰‰ onko vai ei, mutta ei toisaalta auton ominaisuus. Lienee aika selv‰‰ ett‰ jos ei kuvaa niin hankala myyd‰.;12 %;
+major_options;str;['Quick Order Package']; lis‰varusteet;mukaan;kukin varuste omaksi kolumniksi, katsottava mitk‰ vaikuttavat hintaan/myyntiaikaan per alue ja otetaan vain ne mukaan. 120 000 erilaista;7 %;1
+make_name;str;Jeep;Merkki;mukaan;labeloitava nroksi, 80 uniikkia;0 %;1
+maximum_seating;str;5 seats;Istuinten m‰‰r‰/hlˆm‰‰r‰;pois;;5 %;
+mileage;float64;7.0;Mittarilukema;mukaan;float32;5 %;1
+model_name;str;Renegade;Malli;mukaan; 1248 uniikkia. Yhdist‰minen make_nameen;0 %;1
+owner_count;float64;;Omistajien lukum‰‰r‰;pois;;51 %;
+power;str;177 hp @ 5,750 RPM;teho;pois;Kategorisoitava?;16 %; 
+price;float64;23141.0;hinta;mukaan;float32;0 %;1
+salvage;object;;korjauskelvoton;pois;;48 %;
+savings_amount;int64;0;alennus;pois;Myyntihinta riitt‰‰;0 %;
+seller_rating;float64;2.8;Myyj‰n pisteytys;pois;;1 %;
+sp_id;int64;370599;?;pois;;0 %;
+sp_name;str;Flagship Chrysler;?;pois;;0 %;
+theft_title;object;;Varkaushistoria;pois;;48 %;
+torque;str;200 lb-ft @ 1,750 RPM;v‰‰ntˆ;pois;;17 %;
+transmission;str;A;vaihteisto;pois;;2 %;
+transmission_display;str;9-Speed Automatic Overdrive;vaihteiston kuvaus;mukaan;labeloitava nroksi, 42 uniikkia;2 %;1
+trimId;str;t83804;varustetasoid;pois;41300 erilaista;4 %;
+trim_name;str;Latitude FWD;varustetason nimi;pois;9062 erilaista;4 %;
+vehicle_damage_category;float64;;kuntoluokka;pois;;100 %;
+wheel_system;str;FWD;vetotapa;pois?;labeloitava nroksi, 6 uniikkia. Jompi kumpi;5 %;1
+wheel_system_display;str;Front-Wheel Drive;vetotavan kuvaus;mukaan?;labeloitava nroksi, 42 uniikkia. Jompikumpi;5 %;1
+wheelbase;str;101.2 in;akseliv‰li;pois?;;5 %;
+width;str;79.6 in;leveys;pois?;;5 %;
+year;int64;2019;vuosimalli;mukaan;int16;0 %;1
+;;;;;;;17

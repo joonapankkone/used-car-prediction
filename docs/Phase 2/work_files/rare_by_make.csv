@@ -1,0 +1,282 @@
+make_name,model_name,body_type,count
+Chevrolet,R/V 10,Pickup Truck,1
+Buick,Electra,Sedan,1
+Chrysler,Windsor,MISSING,1
+Buick,Century,Wagon,1
+Clenet,Series III Asha,Convertible,1
+Daewoo,Lanos,Hatchback,1
+Bricklin,SV-1,Coupe,1
+Bentley,Turbo R,Sedan,1
+Datsun,2000,Convertible,1
+Bentley,S2,MISSING,1
+Bentley,S1,MISSING,1
+Datsun,210,Sedan,1
+Pontiac,Ventura,Sedan,1
+Bentley,Eight,Sedan,1
+Bentley,Eight,MISSING,1
+Datsun,240Z,Coupe,1
+Pontiac,Sunfire,MISSING,1
+Chrysler,Town & Country,Convertible,1
+Mercedes-Benz,300-Class,Wagon,1
+Chrysler,Saratoga,Sedan,1
+Chevrolet,Superior,Sedan,1
+Buick,Somerset,Coupe,1
+Mercury,Grand Marquis,Wagon,1
+Mercury,Grand Marquis,Coupe,1
+Mercedes-Benz,560-Class,Convertible,1
+Chrysler,Cordoba,Coupe,1
+Mercedes-Benz,500-Class,Convertible,1
+Porsche,550 Spyder,Convertible,1
+Chrysler,Imperial,Convertible,1
+Chrysler,Le Baron,Coupe,1
+Chrysler,Le Baron,Sedan,1
+Chrysler,Le Baron,Wagon,1
+Mercedes-Benz,380-Class,Sedan,1
+Pontiac,Grand Ville,MISSING,1
+Pontiac,Le Mans,Convertible,1
+Mercedes-Benz,350-Class,Sedan,1
+Chrysler,Imperial,Coupe,1
+DeSoto,Firedome,MISSING,1
+Dodge,400,Convertible,1
+Dodge,600,Convertible,1
+Dodge,RAM 350,Pickup Truck,1
+Rolls-Royce,Park Ward,Sedan,1
+Rolls-Royce,Phantom VI,MISSING,1
+Rolls-Royce,Silver Cloud,Coupe,1
+Chevrolet,Celebrity,Sedan,1
+Dodge,Shadow,Hatchback,1
+Dodge,Spirit,Sedan,1
+Mazda,Tribute Hybrid,SUV / Crossover,1
+Mazda,MPV,Van,1
+Edsel,Ranger,MISSING,1
+FIAT,1100,Sedan,1
+Mazda,626,Hatchback,1
+Maserati,Sebring,Coupe,1
+Maserati,Mexico,MISSING,1
+Ferrari,250 GT,MISSING,1
+Saab,95,Wagon,1
+Rover,Mini,Hatchback,1
+Buick,Super,Convertible,1
+Dodge,RAM 100,Pickup Truck,1
+Dodge,Neon,Coupe,1
+Bentley,Brooklands R,Sedan,1
+Bentley,Brooklands,MISSING,1
+Dodge,600,Sedan,1
+Dodge,Aries,Coupe,1
+Dodge,Avenger,Coupe,1
+Mercedes-Benz,250,Coupe,1
+Mercedes-Benz,250,Convertible,1
+Dodge,Omni,Hatchback,1
+Bentley,3.5 Litre,MISSING,1
+Porsche,959,Coupe,1
+Mercedes-Benz,230E,MISSING,1
+Dodge,Colt,Coupe,1
+Mercedes-Benz,220,Convertible,1
+Dodge,Durango Hybrid,SUV / Crossover,1
+Dodge,Luxury Liner,MISSING,1
+Dodge,Monaco,Sedan,1
+Mercedes-Benz,230SL,Convertible,1
+Saleen,S7 Twin Turbo,Coupe,1
+Chevrolet,Stylemaster,MISSING,1
+Buick,Wildcat,MISSING,1
+Nissan,200SX,Coupe,1
+Chevrolet,AK Series,Pickup Truck,1
+Chevrolet,3200,MISSING,1
+Morris,Minor,Sedan,1
+Oldsmobile,Omega,MISSING,1
+Morris,Mini,Hatchback,1
+Chevrolet,210,Sedan,1
+Chevrolet,150,Sedan,1
+Chevrolet,Master,Pickup Truck,1
+Chevrolet,Master,Sedan,1
+Chevrolet,Master Deluxe,Coupe,1
+Chevrolet,Master Eagle,Coupe,1
+Chevrolet,Master Eagle,MISSING,1
+Opel,GT,Coupe,1
+Chevrolet,Metro,Hatchback,1
+Chevrolet,Lumina,Coupe,1
+Oldsmobile,LSS,Sedan,1
+Oldsmobile,Jetstar 88,MISSING,1
+Nissan,240SX,Coupe,1
+Chevrolet,Chevette,Hatchback,1
+Chevrolet,Cameo Carrier,MISSING,1
+Chevrolet,Confederate,Coupe,1
+Chevrolet,Corsica,Hatchback,1
+Nissan,Sentra,Wagon,1
+Nissan,Patrol,SUV / Crossover,1
+Nissan,NX,Hatchback,1
+Opel,Kadett,Coupe,1
+Chevrolet,Deluxe,Sedan,1
+Nissan,350Z,Hatchback,1
+Oldsmobile,Delta 88,Sedan,1
+Nissan,300ZX,Coupe,1
+Oldsmobile,Dynamic 88,Coupe,1
+Chevrolet,Fleetline,MISSING,1
+Chevrolet,Fleetmaster,MISSING,1
+Nissan,240SX,Hatchback,1
+Nissan,Maxima,Wagon,1
+Cadillac,Sixty Special,Sedan,1
+Packard,110,Sedan,1
+Cadillac,Series 75,Convertible,1
+Chevrolet,R/V 20,MISSING,1
+Chevrolet,S-10 Blazer,SUV / Crossover,1
+Mitsubishi,Mighty Max Pickup,Pickup Truck,1
+Cadillac,CTS Sport Wagon,MISSING,1
+Plymouth,Laser,Hatchback,1
+Plymouth,Neon,Coupe,1
+Mercury,Tracer,Wagon,1
+GMC,Sierra C/K 3500,Pickup Truck,1
+Plymouth,P10,MISSING,1
+Plymouth,Plaza,Sedan,1
+Cadillac,CT4,MISSING,1
+Mercury,Topaz,Sedan,1
+Chevrolet,Sprint,Hatchback,1
+Plymouth,Savoy,MISSING,1
+Chevrolet,Standard,MISSING,1
+Plymouth,Superbird,Coupe,1
+Cadillac,CT5,MISSING,1
+Chevrolet,Styleline Deluxe,MISSING,1
+Mitsubishi,Pajero,SUV / Crossover,1
+Plymouth,Concord,MISSING,1
+Packard,120,MISSING,1
+Cadillac,Series 61,Wagon,1
+Chevrolet,Metro,Sedan,1
+Packard,Caribbean,MISSING,1
+Packard,Clipper,Sedan,1
+Cadillac,LaSalle,MISSING,1
+Mobility Ventures,MV-1,Minivan,1
+Plymouth,Deluxe,Coupe,1
+Cadillac,Fleetwood,Coupe,1
+Cadillac,Escalade EXT,SUV / Crossover,1
+Mitsubishi,i-MiEV,Coupe,1
+Plymouth,Acclaim,Sedan,1
+Chevrolet,Panel Truck,MISSING,1
+Plymouth,Breeze,Sedan,1
+Plymouth,Cambridge,Coupe,1
+Plymouth,Champ,Hatchback,1
+Pagani,Huayra,Coupe,1
+Ferrari,250 GTO,Coupe,1
+Rolls-Royce,Silver Dawn,MISSING,1
+Triumph,Stag,Convertible,1
+Ford,Model 48,MISSING,1
+Ford,Model 74/78,Convertible,1
+International Harvester,Scout,Pickup Truck,1
+Volkswagen,Jetta,Coupe,1
+Aston Martin,Volante,Convertible,1
+Ford,Model B,Coupe,1
+Aston Martin,Virage,Convertible,1
+Volkswagen,Karmann Ghia,Coupe,1
+Volkswagen,Rabbit,Convertible,1
+Ford,Probe,Hatchback,1
+Aston Martin,V12 Vantage,Convertible,1
+Hyundai,Tucson Fuel Cell,SUV / Crossover,1
+Volkswagen,Super Beetle,Coupe,1
+Aston Martin,Rapide,Coupe,1
+Aston Martin,Lagonda,Sedan,1
+Ford,LTD Crown Victoria,Wagon,1
+Ford,Granada,Sedan,1
+International Harvester,Travelall,SUV / Crossover,1
+Ford,Galaxie,Convertible,1
+Jaguar,E-TYPE,Coupe,1
+Toyota,Paseo,Convertible,1
+Toyota,Paseo,Coupe,1
+Toyota,Previa,Van,1
+Isuzu,Trooper II,SUV / Crossover,1
+Toyota,Sienna,Van,1
+Isuzu,Rodeo Sport,Convertible,1
+Ford,Super Deluxe,MISSING,1
+Toyota,Tercel,MISSING,1
+Isuzu,Amigo,SUV / Crossover,1
+Triumph,TR3,Convertible,1
+Triumph,TR3A,Convertible,1
+Triumph,TR3A,MISSING,1
+Triumph,TR6,Convertible,1
+Triumph,TR7,MISSING,1
+Triumph,TR8,MISSING,1
+Toyota,Tercel,Sedan,1
+Toyota,Hiace,Van,1
+Ford,Super Deluxe,Sedan,1
+Hudson,Terraplane,MISSING,1
+Hillman,Minx,Sedan,1
+Geo,Tracker,SUV / Crossover,1
+GMC,R/V 2500 Series,Pickup Truck,1
+GMC,R/V 3500 Series,Pickup Truck,1
+GMC,S-15 Jimmy,SUV / Crossover,1
+Geo,Storm,Hatchback,1
+Geo,Metro,Hatchback,1
+Willys,M38A1,SUV / Crossover,1
+GMC,Syclone,Pickup Truck,1
+AMC,Rambler Classic,Sedan,1
+GMC,Sierra Classic 2500,Pickup Truck,1
+AMC,Concord,Sedan,1
+AMC,Ambassador,Sedan,1
+AM General,M151A2,SUV / Crossover,1
+AM General,Humvee,SUV / Crossover,1
+Honda,Accord,Hatchback,1
+Volvo,P1800,Coupe,1
+Acura,SLX,SUV / Crossover,1
+GMC,Caballero,Pickup Truck,1
+Volkswagen,Type 2,Pickup Truck,1
+Volkswagen,Type 2,Van,1
+Ariel,Atom,Convertible,1
+Allard,J2X,Convertible,1
+Volkswagen,Type 3,MISSING,1
+Honda,NSX,Coupe,1
+Ford,Transit Connect Electric,Van,1
+Humber,Super Snipe,Sedan,1
+Alfa Romeo,GTV,MISSING,1
+Volvo,740,Sedan,1
+Franklin,AT,Sedan,1
+Alfa Romeo,1900,Coupe,1
+GMC,100,MISSING,1
+GMC,C/K 1000 Series,Pickup Truck,1
+Acura,Vigor,Sedan,1
+Volvo,850,Wagon,1
+Ford,Windstar Cargo,Van,1
+Jaguar,Mark IX,Sedan,1
+Oldsmobile,Achieva,Sedan,1
+Jaguar,Mark V,Coupe,1
+Suzuki,Samurai,SUV / Crossover,1
+Ford,Escort,MISSING,1
+Suzuki,Forenza,Wagon,1
+Ford,Elite,Coupe,1
+Audi,V8,Sedan,1
+Audi,e-tron,Sedan,1
+Austin,Princess,Sedan,1
+Ford,Crestline,Sedan,1
+Ford,Courier,Van,1
+Ford,Cortina,Sedan,1
+Lincoln,Mark VI,Coupe,1
+Lincoln,Mark VI,MISSING,1
+Suzuki,Sidekick,SUV / Crossover,1
+Ferrari,F12tdf,Coupe,1
+Studebaker,Dictator,MISSING,1
+Lincoln,Premiere,Coupe,1
+BMW,3.0CSi,Coupe,1
+Ferrari,Dino 246,Coupe,1
+Spyker,C8,Convertible,1
+Shelby,Cobra,Coupe,1
+Saturn,VUE Hybrid,MISSING,1
+Ferrari,456,Coupe,1
+Ferrari,400i,MISSING,1
+Saturn,ION Red Line,Coupe,1
+Saturn,Aura Hybrid Green Line,Sedan,1
+Ferrari,365 GTB/4,Coupe,1
+Studebaker,Hawk,MISSING,1
+Land Rover,Defender,Convertible,1
+Ford,Courier,MISSING,1
+Kaiser,Manhattan,MISSING,1
+Jeep,J-20,Pickup Truck,1
+Ford,F-550 Super Duty Chassis,MISSING,1
+Toyota,Crown,Sedan,1
+Toyota,Corona,Sedan,1
+Jeep,Commando,MISSING,1
+Toyota,Camry,Wagon,1
+Ford,Falcon Futura,Sedan,1
+Jensen,Interceptor,MISSING,1
+Koenigsegg,CCXR Trevita,Coupe,1
+Lamborghini,Jalpa,Coupe,1
+Kia,Telluride,MISSING,1
+Tesla,Roadster,Convertible,1
+Lamborghini,Espada,Coupe,1
+Jeep,CJ-7,Pickup Truck,1
