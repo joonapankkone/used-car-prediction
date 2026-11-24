@@ -10,6 +10,10 @@
 
 **Live demo:** <https://aida-project.onrender.com/> (free tier: the first request after ~15 minutes of inactivity can take about 30 seconds while the server wakes up)
 
+![AIDA Pricer estimating the price of a 2018 Volvo V60 wagon with 20,000 miles in Los Angeles County, California](docs/images/aida-pricer-demo-volvo-v60.png)
+
+*Example: a 2018 Volvo V60 (2.0 L I4, 240 hp, FWD, automatic, 20,000 miles) with seven common options, sold in Los Angeles County, CA. AIDA Pricer estimates **$30,066**, with a range of $27,571–$32,561. The interface is in Finnish.*
+
 ---
 
 ## Table of Contents
@@ -69,6 +73,10 @@ This project was carried out as a team project in an AI / Data Analytics course,
 - A result card showing the estimated price, a ±MAE range, the model's R² and a warning for cars above $75k.
 - A JSON REST API and a `/api/health` endpoint for monitoring.
 - The model (~196 MB) is downloaded from a GitHub Release at build time, so it never has to be committed to Git.
+
+<p align="center">
+  <img src="docs/images/aida-pricer-result-volvo-v60.png" alt="AIDA Pricer result card for a 2018 Volvo V60: estimated price $30,066, range $27,571–$32,561" width="420" />
+</p>
 
 ---
 
